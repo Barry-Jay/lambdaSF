@@ -1,0 +1,65 @@
+DIGEST c226639c845d9785fdd0bc3f82de9469
+FLamSF_Marks
+R2283:2287 Coq.Arith.Arith <> <> lib
+R2305:2308 Test <> <> lib
+R2326:2332 General <> <> lib
+R2350:2360 LamSF_Terms <> <> lib
+R2378:2390 LamSF_Redexes <> <> lib
+R2408:2422 LamSF_Residuals <> <> lib
+def 2476:2479 <> mark
+R2486:2490 LamSF_Terms <> lamSF ind
+R2495:2501 LamSF_Redexes <> redexes ind
+R2514:2514 LamSF_Marks <> e var
+R2525:2527 LamSF_Terms <> Ref constr
+R2534:2536 LamSF_Redexes <> Var constr
+R2544:2545 LamSF_Terms <> Op constr
+R2552:2554 LamSF_Redexes <> Opp constr
+R2562:2564 LamSF_Terms <> App constr
+R2573:2574 LamSF_Redexes <> Ap constr
+R2592:2595 LamSF_Marks <> mark def
+R2583:2586 LamSF_Marks <> mark def
+R2576:2580 Coq.Init.Datatypes <> false constr
+R2604:2606 LamSF_Terms <> Abs constr
+R2613:2615 LamSF_Redexes <> Fun constr
+R2618:2621 LamSF_Marks <> mark def
+def 2692:2697 <> unmark
+R2704:2710 LamSF_Redexes <> redexes ind
+R2715:2719 LamSF_Terms <> lamSF ind
+R2732:2732 LamSF_Marks <> e var
+R2743:2745 LamSF_Redexes <> Var constr
+R2752:2754 LamSF_Terms <> Ref constr
+R2762:2764 LamSF_Redexes <> Opp constr
+R2771:2772 LamSF_Terms <> Op constr
+R2780:2781 LamSF_Redexes <> Ap constr
+R2792:2794 LamSF_Terms <> App constr
+R2808:2813 LamSF_Marks <> unmark def
+R2797:2802 LamSF_Marks <> unmark def
+R2822:2824 LamSF_Redexes <> Fun constr
+R2831:2833 LamSF_Terms <> Abs constr
+R2836:2841 LamSF_Marks <> unmark def
+prf 2860:2866 <> inverse
+R2881:2885 LamSF_Terms <> lamSF ind
+R2889:2891 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2888:2888 LamSF_Marks <> M var
+R2892:2897 LamSF_Marks <> unmark def
+R2900:2903 LamSF_Marks <> mark def
+R2905:2905 LamSF_Marks <> M var
+prf 3030:3043 <> comp_unmark_eq
+R3060:3066 LamSF_Redexes <> redexes ind
+R3089:3091 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3081:3086 LamSF_Marks <> unmark def
+R3088:3088 LamSF_Marks <> U var
+R3092:3097 LamSF_Marks <> unmark def
+R3099:3099 LamSF_Marks <> V var
+R3069:3072 LamSF_Redexes <> comp ind
+R3076:3076 LamSF_Marks <> V var
+R3074:3074 LamSF_Marks <> U var
+prf 3252:3265 <> residuals_mark
+R3279:3287 LamSF_Residuals <> residuals ind
+R3308:3311 LamSF_Marks <> mark def
+R3313:3313 LamSF_Marks <> M var
+R3299:3302 LamSF_Marks <> mark def
+R3304:3304 LamSF_Marks <> M var
+R3290:3293 LamSF_Marks <> mark def
+R3295:3295 LamSF_Marks <> M var
+R3367:3380 LamSF_Marks <> residuals_mark thm

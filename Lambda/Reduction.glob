@@ -1,0 +1,132 @@
+DIGEST f11afa5232665af84454662422f23523
+FReduction
+R2136:2140 Coq.Arith.Arith <> <> lib
+R2158:2164 General <> <> lib
+R2182:2185 Test <> <> lib
+R2203:2207 Terms <> <> lib
+R2225:2238 Lambda_tactics <> <> lib
+R2256:2272 Substitution_term <> <> lib
+ind 2317:2324 <> par_red1
+constr 2343:2350 <> beta_red
+constr 2468:2478 <> ref_par_red
+constr 2521:2531 <> app_par_red
+constr 2658:2668 <> abs_par_red
+R2327:2333 Lambda_tactics <> termred def
+R2425:2432 Reduction <> par_red1 ind
+R2451:2455 Terms <> subst def
+R2460:2461 Reduction <> M' var
+R2457:2458 Reduction <> N' var
+R2435:2437 Terms <> App constr
+R2447:2447 Reduction <> N var
+R2440:2442 Terms <> Abs constr
+R2444:2444 Reduction <> M var
+R2389:2396 Reduction <> par_red1 ind
+R2400:2401 Reduction <> N' var
+R2398:2398 Reduction <> N var
+R2372:2379 Reduction <> par_red1 ind
+R2383:2384 Reduction <> M' var
+R2381:2381 Reduction <> M var
+R2492:2499 Reduction <> par_red1 ind
+R2510:2512 Terms <> Ref constr
+R2514:2514 Reduction <> i var
+R2502:2504 Terms <> Ref constr
+R2506:2506 Reduction <> i var
+R2598:2603 Terms <> lambda ind
+R2623:2630 Reduction <> par_red1 ind
+R2643:2645 Terms <> App constr
+R2650:2651 Reduction <> N' var
+R2647:2648 Reduction <> M' var
+R2633:2635 Terms <> App constr
+R2639:2639 Reduction <> N var
+R2637:2637 Reduction <> M var
+R2606:2613 Reduction <> par_red1 ind
+R2617:2618 Reduction <> N' var
+R2615:2615 Reduction <> N var
+R2561:2568 Reduction <> par_red1 ind
+R2572:2573 Reduction <> M' var
+R2570:2570 Reduction <> M var
+R2708:2715 Reduction <> par_red1 ind
+R2726:2728 Terms <> Abs constr
+R2730:2731 Reduction <> M' var
+R2718:2720 Terms <> Abs constr
+R2722:2722 Reduction <> M var
+R2691:2698 Reduction <> par_red1 ind
+R2702:2703 Reduction <> M' var
+R2700:2700 Reduction <> M var
+R2751:2758 Reduction <> beta_red constr
+R2760:2770 Reduction <> ref_par_red constr
+R2772:2782 Reduction <> abs_par_red constr
+R2784:2794 Reduction <> app_par_red constr
+def 2811:2817 <> par_red
+R2822:2831 Lambda_tactics <> multi_step ind
+R2833:2840 Reduction <> par_red1 ind
+prf 2851:2863 <> refl_par_red1
+R2866:2875 Lambda_tactics <> reflective def
+R2877:2884 Reduction <> par_red1 ind
+R2944:2956 Reduction <> refl_par_red1 thm
+prf 2967:2993 <> lift_rec_preserves_par_red1
+R2998:3015 Lambda_tactics <> lift_rec_preserves def
+R3017:3024 Reduction <> par_red1 ind
+R3070:3074 Terms <> subst def
+R3087:3087 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3089:3089 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3087:3087 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3089:3089 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3129:3146 Substitution_term <> lift_rec_subst_rec thm
+R3129:3146 Substitution_term <> lift_rec_subst_rec thm
+R3169:3176 Reduction <> beta_red constr
+R3200:3226 Reduction <> lift_rec_preserves_par_red1 thm
+prf 3237:3262 <> lift_rec_preserves_par_red
+R3268:3285 Lambda_tactics <> lift_rec_preserves def
+R3287:3293 Reduction <> par_red def
+R3316:3344 Lambda_tactics <> lift_rec_preserves_multi_step thm
+prf 3360:3387 <> subst_rec_preserves_par_red1
+R3391:3409 Lambda_tactics <> subst_rec_preserves def
+R3411:3418 Reduction <> par_red1 ind
+R3491:3495 Terms <> subst def
+R3519:3521 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3523:3523 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3519:3521 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3523:3523 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3564:3582 Substitution_term <> subst_rec_subst_rec thm
+R3564:3582 Substitution_term <> subst_rec_subst_rec thm
+R3593:3600 Reduction <> beta_red constr
+R3613:3622 Terms <> insert_Ref def
+R3630:3636 Test <> compare def
+R3630:3636 Test <> compare def
+R3684:3687 Terms <> lift def
+prf 3710:3736 <> preserves_lift_rec_par_red1
+R3740:3757 Lambda_tactics <> preserves_lift_rec def
+R3759:3766 Reduction <> par_red1 ind
+R3913:3917 Terms <> subst def
+R3913:3917 Terms <> subst def
+R3934:3938 Terms <> subst def
+R3967:3967 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3967:3967 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3990:4007 Substitution_term <> lift_rec_subst_rec thm
+R3990:4007 Substitution_term <> lift_rec_subst_rec thm
+R4074:4076 Terms <> App constr
+R4074:4076 Terms <> App constr
+R4144:4146 Terms <> Abs constr
+R4144:4146 Terms <> Abs constr
+prf 4165:4188 <> par_red1_preserves_lift1
+R4251:4257 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R4260:4261 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R4276:4279 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R4262:4269 Reduction <> par_red1 ind
+R4274:4275 Reduction <> N0 var
+R4271:4272 Reduction <> M0 var
+R4289:4291 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4280:4283 Terms <> lift def
+R4287:4288 Reduction <> N0 var
+R4292:4292 Reduction <> N var
+R4232:4232 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4242:4245 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4233:4236 Terms <> lift def
+R4240:4241 Reduction <> M0 var
+R4246:4246 Reduction <> M var
+R4205:4212 Reduction <> par_red1 ind
+R4216:4216 Reduction <> N var
+R4214:4214 Reduction <> M var
+R4321:4324 Terms <> lift def
+R4340:4366 Reduction <> preserves_lift_rec_par_red1 thm

@@ -1,0 +1,311 @@
+DIGEST 6bc2ad78a60d38fc3751d149d2caabb5
+FRedexes
+R2138:2142 Coq.Arith.Arith <> <> lib
+R2160:2166 General <> <> lib
+R2184:2187 Test <> <> lib
+R2205:2209 Terms <> <> lib
+ind 2320:2326 <> redexes
+constr 2341:2343 <> Var
+constr 2367:2368 <> Ap
+constr 2414:2416 <> Fun
+R2354:2360 Redexes <> redexes ind
+R2347:2349 Coq.Init.Datatypes <> nat ind
+R2402:2408 Redexes <> redexes ind
+R2391:2397 Redexes <> redexes ind
+R2380:2386 Redexes <> redexes ind
+R2372:2375 Coq.Init.Datatypes <> bool ind
+R2431:2437 Redexes <> redexes ind
+R2420:2426 Redexes <> redexes ind
+ind 2552:2554 <> sub
+constr 2593:2599 <> Sub_Var
+constr 2644:2650 <> Sub_Ap1
+constr 2810:2816 <> Sub_Ap2
+constr 2976:2982 <> Sub_Fun
+R2569:2575 Redexes <> redexes ind
+R2558:2564 Redexes <> redexes ind
+R2614:2616 Coq.Init.Datatypes <> nat ind
+R2619:2621 Redexes <> sub ind
+R2632:2634 Redexes <> Var constr
+R2636:2636 Redexes <> i var
+R2624:2626 Redexes <> Var constr
+R2628:2628 Redexes <> i var
+R2675:2681 Redexes <> redexes ind
+R2724:2730 Redexes <> redexes ind
+R2765:2768 Coq.Init.Datatypes <> bool ind
+R2772:2774 Redexes <> sub ind
+R2794:2795 Redexes <> Ap constr
+R2802:2803 Redexes <> V2 var
+R2799:2800 Redexes <> V1 var
+R2797:2797 Redexes <> b var
+R2777:2778 Redexes <> Ap constr
+R2789:2790 Redexes <> U2 var
+R2786:2787 Redexes <> U1 var
+R2780:2784 Coq.Init.Datatypes <> false constr
+R2740:2742 Redexes <> sub ind
+R2747:2748 Redexes <> V2 var
+R2744:2745 Redexes <> U2 var
+R2690:2692 Redexes <> sub ind
+R2697:2698 Redexes <> V1 var
+R2694:2695 Redexes <> U1 var
+R2841:2847 Redexes <> redexes ind
+R2890:2896 Redexes <> redexes ind
+R2930:2933 Coq.Init.Datatypes <> bool ind
+R2937:2939 Redexes <> sub ind
+R2958:2959 Redexes <> Ap constr
+R2969:2970 Redexes <> V2 var
+R2966:2967 Redexes <> V1 var
+R2961:2964 Coq.Init.Datatypes <> true constr
+R2942:2943 Redexes <> Ap constr
+R2953:2954 Redexes <> U2 var
+R2950:2951 Redexes <> U1 var
+R2945:2948 Coq.Init.Datatypes <> true constr
+R2905:2907 Redexes <> sub ind
+R2912:2913 Redexes <> V2 var
+R2909:2910 Redexes <> U2 var
+R2856:2858 Redexes <> sub ind
+R2863:2864 Redexes <> V1 var
+R2860:2861 Redexes <> U1 var
+R3010:3012 Redexes <> sub ind
+R3023:3025 Redexes <> Fun constr
+R3027:3027 Redexes <> V var
+R3015:3017 Redexes <> Fun constr
+R3019:3019 Redexes <> U var
+R2999:3001 Redexes <> sub ind
+R3005:3005 Redexes <> V var
+R3003:3003 Redexes <> U var
+R3046:3052 Redexes <> Sub_Var constr
+R3054:3060 Redexes <> Sub_Fun constr
+R3062:3068 Redexes <> Sub_Ap1 constr
+R3070:3076 Redexes <> Sub_Ap2 constr
+def 3092:3099 <> bool_max
+R3109:3112 Coq.Init.Datatypes <> bool ind
+R3126:3126 Redexes <> b var
+R3135:3138 Coq.Init.Datatypes <> bool ind
+R3149:3152 Coq.Init.Datatypes <> true constr
+R3157:3160 Coq.Init.Datatypes <> true constr
+R3166:3170 Coq.Init.Datatypes <> false constr
+R3175:3176 Redexes <> b' var
+prf 3192:3200 <> max_false
+R3215:3218 Coq.Init.Datatypes <> bool ind
+R3237:3239 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3221:3228 Redexes <> bool_max def
+R3232:3236 Coq.Init.Datatypes <> false constr
+R3230:3230 Redexes <> b var
+R3240:3240 Redexes <> b var
+ind 3310:3314 <> union
+constr 3363:3371 <> Union_Var
+constr 3424:3431 <> Union_Ap
+constr 3650:3658 <> Union_Fun
+R3340:3346 Redexes <> redexes ind
+R3329:3335 Redexes <> redexes ind
+R3318:3324 Redexes <> redexes ind
+R3385:3387 Coq.Init.Datatypes <> nat ind
+R3390:3394 Redexes <> union ind
+R3413:3415 Redexes <> Var constr
+R3417:3417 Redexes <> i var
+R3405:3407 Redexes <> Var constr
+R3409:3409 Redexes <> i var
+R3397:3399 Redexes <> Var constr
+R3401:3401 Redexes <> i var
+R3459:3465 Redexes <> redexes ind
+R3516:3522 Redexes <> redexes ind
+R3571:3574 Coq.Init.Datatypes <> bool ind
+R3584:3588 Redexes <> union ind
+R3619:3620 Redexes <> Ap constr
+R3642:3643 Redexes <> W2 var
+R3639:3640 Redexes <> W1 var
+R3623:3630 Redexes <> bool_max def
+R3635:3636 Redexes <> b2 var
+R3632:3633 Redexes <> b1 var
+R3605:3606 Redexes <> Ap constr
+R3614:3615 Redexes <> V2 var
+R3611:3612 Redexes <> V1 var
+R3608:3609 Redexes <> b2 var
+R3591:3592 Redexes <> Ap constr
+R3600:3601 Redexes <> U2 var
+R3597:3598 Redexes <> U1 var
+R3594:3595 Redexes <> b1 var
+R3531:3535 Redexes <> union ind
+R3543:3544 Redexes <> W2 var
+R3540:3541 Redexes <> V2 var
+R3537:3538 Redexes <> U2 var
+R3474:3478 Redexes <> union ind
+R3486:3487 Redexes <> W1 var
+R3483:3484 Redexes <> V1 var
+R3480:3481 Redexes <> U1 var
+R3691:3695 Redexes <> union ind
+R3714:3716 Redexes <> Fun constr
+R3718:3718 Redexes <> W var
+R3706:3708 Redexes <> Fun constr
+R3710:3710 Redexes <> V var
+R3698:3700 Redexes <> Fun constr
+R3702:3702 Redexes <> U var
+R3676:3680 Redexes <> union ind
+R3686:3686 Redexes <> W var
+R3684:3684 Redexes <> V var
+R3682:3682 Redexes <> U var
+R3737:3745 Redexes <> Union_Var constr
+R3747:3755 Redexes <> Union_Fun constr
+R3757:3764 Redexes <> Union_Ap constr
+prf 3774:3780 <> union_l
+R3799:3805 Redexes <> redexes ind
+R3823:3825 Redexes <> sub ind
+R3829:3829 Redexes <> W var
+R3827:3827 Redexes <> U var
+R3808:3812 Redexes <> union ind
+R3818:3818 Redexes <> W var
+R3816:3816 Redexes <> V var
+R3814:3814 Redexes <> U var
+R3910:3916 Redexes <> Sub_Ap2 constr
+R3910:3916 Redexes <> Sub_Ap2 constr
+R3910:3916 Redexes <> Sub_Ap2 constr
+R3958:3964 Redexes <> Sub_Ap1 constr
+R3958:3964 Redexes <> Sub_Ap1 constr
+R3958:3964 Redexes <> Sub_Ap1 constr
+prf 3988:3994 <> union_r
+R4013:4019 Redexes <> redexes ind
+R4037:4039 Redexes <> sub ind
+R4043:4043 Redexes <> W var
+R4041:4041 Redexes <> V var
+R4022:4026 Redexes <> union ind
+R4032:4032 Redexes <> W var
+R4030:4030 Redexes <> V var
+R4028:4028 Redexes <> U var
+R4124:4130 Redexes <> Sub_Ap2 constr
+R4124:4130 Redexes <> Sub_Ap2 constr
+R4124:4130 Redexes <> Sub_Ap2 constr
+R4172:4178 Redexes <> Sub_Ap1 constr
+R4172:4178 Redexes <> Sub_Ap1 constr
+R4172:4178 Redexes <> Sub_Ap1 constr
+prf 4202:4213 <> bool_max_Sym
+R4231:4234 Coq.Init.Datatypes <> bool ind
+R4250:4252 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4237:4244 Redexes <> bool_max def
+R4248:4249 Redexes <> b' var
+R4246:4246 Redexes <> b var
+R4253:4260 Redexes <> bool_max def
+R4265:4265 Redexes <> b var
+R4262:4263 Redexes <> b' var
+prf 4352:4360 <> union_sym
+R4379:4385 Redexes <> redexes ind
+R4403:4407 Redexes <> union ind
+R4413:4413 Redexes <> W var
+R4411:4411 Redexes <> U var
+R4409:4409 Redexes <> V var
+R4388:4392 Redexes <> union ind
+R4398:4398 Redexes <> W var
+R4396:4396 Redexes <> V var
+R4394:4394 Redexes <> U var
+R4463:4474 Redexes <> bool_max_Sym thm
+R4463:4474 Redexes <> bool_max_Sym thm
+ind 4575:4578 <> comp
+constr 4616:4623 <> Comp_Var
+constr 4667:4673 <> Comp_Ap
+constr 4837:4844 <> Comp_Fun
+R4593:4599 Redexes <> redexes ind
+R4582:4588 Redexes <> redexes ind
+R4637:4639 Coq.Init.Datatypes <> nat ind
+R4642:4645 Redexes <> comp ind
+R4656:4658 Redexes <> Var constr
+R4660:4660 Redexes <> i var
+R4648:4650 Redexes <> Var constr
+R4652:4652 Redexes <> i var
+R4698:4704 Redexes <> redexes ind
+R4748:4754 Redexes <> redexes ind
+R4793:4796 Coq.Init.Datatypes <> bool ind
+R4800:4803 Redexes <> comp ind
+R4820:4821 Redexes <> Ap constr
+R4829:4830 Redexes <> V2 var
+R4826:4827 Redexes <> V1 var
+R4823:4824 Redexes <> b2 var
+R4806:4807 Redexes <> Ap constr
+R4815:4816 Redexes <> U2 var
+R4812:4813 Redexes <> U1 var
+R4809:4810 Redexes <> b1 var
+R4763:4766 Redexes <> comp ind
+R4771:4772 Redexes <> V2 var
+R4768:4769 Redexes <> U2 var
+R4713:4716 Redexes <> comp ind
+R4721:4722 Redexes <> V1 var
+R4718:4719 Redexes <> U1 var
+R4872:4875 Redexes <> comp ind
+R4886:4888 Redexes <> Fun constr
+R4890:4890 Redexes <> V var
+R4878:4880 Redexes <> Fun constr
+R4882:4882 Redexes <> U var
+R4860:4863 Redexes <> comp ind
+R4867:4867 Redexes <> V var
+R4865:4865 Redexes <> U var
+R4908:4915 Redexes <> Comp_Var constr
+R4917:4924 Redexes <> Comp_Fun constr
+R4926:4932 Redexes <> Comp_Ap constr
+prf 4942:4950 <> comp_refl
+R4965:4971 Redexes <> redexes ind
+R4974:4977 Redexes <> comp ind
+R4981:4981 Redexes <> U var
+R4979:4979 Redexes <> U var
+prf 5029:5036 <> comp_sym
+R5053:5059 Redexes <> redexes ind
+R5074:5077 Redexes <> comp ind
+R5081:5081 Redexes <> U var
+R5079:5079 Redexes <> V var
+R5062:5065 Redexes <> comp ind
+R5069:5069 Redexes <> V var
+R5067:5067 Redexes <> U var
+prf 5129:5138 <> comp_trans
+R5156:5162 Redexes <> redexes ind
+R5190:5196 Redexes <> redexes ind
+R5206:5209 Redexes <> comp ind
+R5213:5213 Redexes <> W var
+R5211:5211 Redexes <> V var
+R5217:5220 Redexes <> comp ind
+R5224:5224 Redexes <> W var
+R5222:5222 Redexes <> U var
+R5166:5169 Redexes <> comp ind
+R5173:5173 Redexes <> V var
+R5171:5171 Redexes <> U var
+prf 5295:5307 <> union_defined
+R5325:5331 Redexes <> redexes ind
+R5346:5352 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R5364:5365 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R5357:5363 Redexes <> redexes ind
+R5366:5370 Redexes <> union ind
+R5376:5376 Redexes <> W var
+R5374:5374 Redexes <> V var
+R5372:5372 Redexes <> U var
+R5334:5337 Redexes <> comp ind
+R5341:5341 Redexes <> V var
+R5339:5339 Redexes <> U var
+def 5531:5537 <> regular
+R5544:5550 Redexes <> redexes ind
+R5571:5571 Redexes <> U var
+R5582:5584 Redexes <> Var constr
+R5591:5594 Coq.Init.Logic <> True ind
+R5600:5601 Redexes <> Ap constr
+R5603:5606 Coq.Init.Datatypes <> true constr
+R5609:5611 Redexes <> Fun constr
+R5635:5638 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5626:5632 Redexes <> regular def
+R5639:5645 Redexes <> regular def
+R5653:5654 Redexes <> Ap constr
+R5656:5659 Coq.Init.Datatypes <> true constr
+R5668:5672 Coq.Init.Logic <> False ind
+R5678:5679 Redexes <> Ap constr
+R5681:5685 Coq.Init.Datatypes <> false constr
+R5703:5706 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5694:5700 Redexes <> regular def
+R5707:5713 Redexes <> regular def
+R5721:5723 Redexes <> Fun constr
+R5730:5736 Redexes <> regular def
+prf 5754:5775 <> union_preserve_regular
+R5795:5801 Redexes <> redexes ind
+R5845:5851 Redexes <> regular def
+R5853:5853 Redexes <> W var
+R5832:5838 Redexes <> regular def
+R5840:5840 Redexes <> V var
+R5819:5825 Redexes <> regular def
+R5827:5827 Redexes <> U var
+R5804:5808 Redexes <> union ind
+R5814:5814 Redexes <> W var
+R5812:5812 Redexes <> V var
+R5810:5810 Redexes <> U var

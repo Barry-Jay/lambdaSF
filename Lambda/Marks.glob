@@ -1,0 +1,61 @@
+DIGEST a4e814324707a98861b1f2f71d1e0f1c
+FMarks
+R2283:2287 Coq.Arith.Arith <> <> lib
+R2305:2308 Test <> <> lib
+R2326:2332 General <> <> lib
+R2350:2354 Terms <> <> lib
+R2372:2378 Redexes <> <> lib
+R2396:2404 Residuals <> <> lib
+def 2458:2461 <> mark
+R2468:2473 Terms <> lambda ind
+R2478:2484 Redexes <> redexes ind
+R2497:2497 Marks <> e var
+R2508:2510 Terms <> Ref constr
+R2517:2519 Redexes <> Var constr
+R2527:2529 Terms <> App constr
+R2538:2539 Redexes <> Ap constr
+R2557:2560 Marks <> mark def
+R2548:2551 Marks <> mark def
+R2541:2545 Coq.Init.Datatypes <> false constr
+R2569:2571 Terms <> Abs constr
+R2578:2580 Redexes <> Fun constr
+R2583:2586 Marks <> mark def
+def 2657:2662 <> unmark
+R2669:2675 Redexes <> redexes ind
+R2680:2685 Terms <> lambda ind
+R2698:2698 Marks <> e var
+R2709:2711 Redexes <> Var constr
+R2718:2720 Terms <> Ref constr
+R2728:2729 Redexes <> Ap constr
+R2740:2742 Terms <> App constr
+R2756:2761 Marks <> unmark def
+R2745:2750 Marks <> unmark def
+R2770:2772 Redexes <> Fun constr
+R2779:2781 Terms <> Abs constr
+R2784:2789 Marks <> unmark def
+prf 2808:2814 <> inverse
+R2829:2834 Terms <> lambda ind
+R2838:2840 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2837:2837 Marks <> M var
+R2841:2846 Marks <> unmark def
+R2849:2852 Marks <> mark def
+R2854:2854 Marks <> M var
+prf 2979:2992 <> comp_unmark_eq
+R3009:3015 Redexes <> redexes ind
+R3038:3040 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3030:3035 Marks <> unmark def
+R3037:3037 Marks <> U var
+R3041:3046 Marks <> unmark def
+R3048:3048 Marks <> V var
+R3018:3021 Redexes <> comp ind
+R3025:3025 Marks <> V var
+R3023:3023 Marks <> U var
+prf 3201:3214 <> residuals_mark
+R3228:3236 Residuals <> residuals ind
+R3257:3260 Marks <> mark def
+R3262:3262 Marks <> M var
+R3248:3251 Marks <> mark def
+R3253:3253 Marks <> M var
+R3239:3242 Marks <> mark def
+R3244:3244 Marks <> M var
+R3316:3329 Marks <> residuals_mark thm

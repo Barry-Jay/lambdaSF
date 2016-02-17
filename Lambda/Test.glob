@@ -1,0 +1,48 @@
+DIGEST d4f8c12bcbac5782be5645c19193b170
+FTest
+R2247:2251 Coq.Arith.Arith <> <> lib
+def 2359:2362 <> test
+R2379:2381 Coq.Init.Datatypes <> nat ind
+R2384:2384 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2391:2395 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2401:2401 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2386:2389 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R2385:2385 Test <> n var
+R2390:2390 Test <> m var
+R2397:2399 Coq.Init.Peano <> :nat_scope:x_'>'_x not
+R2396:2396 Test <> n var
+R2400:2400 Test <> m var
+def 2572:2576 <> le_lt
+R2593:2595 Coq.Init.Datatypes <> nat ind
+R2608:2608 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2614:2618 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2624:2624 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2610:2612 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R2609:2609 Test <> n var
+R2613:2613 Test <> m var
+R2620:2622 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2619:2619 Test <> n var
+R2623:2623 Test <> m var
+R2599:2602 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R2598:2598 Test <> n var
+R2603:2603 Test <> m var
+def 2799:2805 <> compare
+R2822:2824 Coq.Init.Datatypes <> nat ind
+R2844:2847 Coq.Init.Specif <> :type_scope:x_'+'_'{'_x_'}' not
+R2853:2853 Coq.Init.Specif <> :type_scope:x_'+'_'{'_x_'}' not
+R2827:2827 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2833:2837 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2843:2843 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R2829:2831 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R2828:2828 Test <> n var
+R2832:2832 Test <> m var
+R2839:2841 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2838:2838 Test <> n var
+R2842:2842 Test <> m var
+R2849:2851 Coq.Init.Peano <> :nat_scope:x_'>'_x not
+R2848:2848 Test <> n var
+R2852:2852 Test <> m var
+R2881:2884 Test <> test def
+R2881:2884 Test <> test def
+R2921:2925 Test <> le_lt def
+R2921:2925 Test <> le_lt def

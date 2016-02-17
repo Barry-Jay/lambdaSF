@@ -1,0 +1,67 @@
+DIGEST bc74d80075d5f3e0a7b72e2eadf97eba
+FLamSF_Confluence
+R2283:2287 Coq.Arith.Arith <> <> lib
+R2305:2308 Test <> <> lib
+R2326:2332 General <> <> lib
+R2350:2360 LamSF_Terms <> <> lib
+R2378:2390 LamSF_Tactics <> <> lib
+R2408:2421 Beta_Reduction <> <> lib
+R2439:2451 LamSF_Redexes <> <> lib
+R2469:2479 LamSF_Marks <> <> lib
+R2497:2514 LamSF_Substitution <> <> lib
+R2532:2546 LamSF_Residuals <> <> lib
+R2564:2579 LamSF_Simulation <> <> lib
+R2597:2606 LamSF_Cube <> <> lib
+def 2640:2649 <> confluence
+R2671:2671 LamSF_Confluence <> A var
+R2666:2666 LamSF_Confluence <> A var
+R2700:2700 LamSF_Confluence <> A var
+R2725:2725 LamSF_Confluence <> A var
+R2737:2743 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2749:2750 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2748:2748 LamSF_Confluence <> A var
+R2756:2759 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2751:2751 LamSF_Confluence <> R var
+R2755:2755 LamSF_Confluence <> u var
+R2753:2753 LamSF_Confluence <> y var
+R2760:2760 LamSF_Confluence <> R var
+R2764:2764 LamSF_Confluence <> u var
+R2762:2762 LamSF_Confluence <> z var
+R2728:2728 LamSF_Confluence <> R var
+R2732:2732 LamSF_Confluence <> z var
+R2730:2730 LamSF_Confluence <> x var
+R2705:2705 LamSF_Confluence <> R var
+R2709:2709 LamSF_Confluence <> y var
+R2707:2707 LamSF_Confluence <> x var
+prf 2902:2915 <> parallel_moves
+R2919:2928 LamSF_Confluence <> confluence def
+R2936:2943 Beta_Reduction <> par_red1 ind
+R2930:2934 LamSF_Terms <> lamSF ind
+R2993:3002 LamSF_Simulation <> simulation thm
+R2993:3002 LamSF_Simulation <> simulation thm
+R3036:3045 LamSF_Simulation <> simulation thm
+R3036:3045 LamSF_Simulation <> simulation thm
+R3099:3104 LamSF_Cube <> paving thm
+R3129:3132 LamSF_Marks <> mark def
+R3120:3123 LamSF_Marks <> mark def
+R3111:3114 LamSF_Marks <> mark def
+R3099:3104 LamSF_Cube <> paving thm
+R3129:3132 LamSF_Marks <> mark def
+R3120:3123 LamSF_Marks <> mark def
+R3111:3114 LamSF_Marks <> mark def
+R3251:3256 LamSF_Marks <> unmark def
+R3251:3256 LamSF_Marks <> unmark def
+R3280:3286 LamSF_Marks <> inverse thm
+R3280:3286 LamSF_Marks <> inverse thm
+R3298:3309 LamSF_Simulation <> completeness thm
+R3298:3309 LamSF_Simulation <> completeness thm
+R3349:3355 LamSF_Marks <> inverse thm
+R3349:3355 LamSF_Marks <> inverse thm
+R3367:3378 LamSF_Simulation <> completeness thm
+R3367:3378 LamSF_Simulation <> completeness thm
+prf 3423:3451 <> confluence_parallel_reduction
+R3455:3464 LamSF_Confluence <> confluence def
+R3472:3478 Beta_Reduction <> par_red def
+R3466:3470 LamSF_Terms <> lamSF ind
+R3501:3514 LamSF_Tactics <> diamond_tiling thm
+R3525:3538 LamSF_Confluence <> parallel_moves thm

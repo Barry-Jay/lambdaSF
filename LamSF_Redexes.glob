@@ -1,0 +1,339 @@
+DIGEST d73173ced552cf103fa8de27d43d3249
+FLamSF_Redexes
+R2138:2142 Coq.Arith.Arith <> <> lib
+R2160:2166 General <> <> lib
+R2184:2187 Test <> <> lib
+R2205:2215 LamSF_Terms <> <> lib
+ind 2326:2332 <> redexes
+constr 2347:2349 <> Var
+constr 2373:2375 <> Opp
+constr 2403:2404 <> Ap
+constr 2450:2452 <> Fun
+R2360:2366 LamSF_Redexes <> redexes ind
+R2353:2355 Coq.Init.Datatypes <> nat ind
+R2391:2397 LamSF_Redexes <> redexes ind
+R2379:2386 LamSF_Terms <> operator ind
+R2438:2444 LamSF_Redexes <> redexes ind
+R2427:2433 LamSF_Redexes <> redexes ind
+R2416:2422 LamSF_Redexes <> redexes ind
+R2408:2411 Coq.Init.Datatypes <> bool ind
+R2467:2473 LamSF_Redexes <> redexes ind
+R2456:2462 LamSF_Redexes <> redexes ind
+ind 2588:2590 <> sub
+constr 2629:2635 <> Sub_Var
+constr 2679:2686 <> Sub_Oper
+constr 2724:2730 <> Sub_Ap1
+constr 2890:2896 <> Sub_Ap2
+constr 3056:3062 <> Sub_Fun
+R2605:2611 LamSF_Redexes <> redexes ind
+R2594:2600 LamSF_Redexes <> redexes ind
+R2650:2652 Coq.Init.Datatypes <> nat ind
+R2655:2657 LamSF_Redexes <> sub ind
+R2668:2670 LamSF_Redexes <> Var constr
+R2672:2672 LamSF_Redexes <> i var
+R2660:2662 LamSF_Redexes <> Var constr
+R2664:2664 LamSF_Redexes <> i var
+R2700:2702 LamSF_Redexes <> sub ind
+R2713:2715 LamSF_Redexes <> Opp constr
+R2717:2717 LamSF_Redexes <> o var
+R2705:2707 LamSF_Redexes <> Opp constr
+R2709:2709 LamSF_Redexes <> o var
+R2755:2761 LamSF_Redexes <> redexes ind
+R2804:2810 LamSF_Redexes <> redexes ind
+R2845:2848 Coq.Init.Datatypes <> bool ind
+R2852:2854 LamSF_Redexes <> sub ind
+R2874:2875 LamSF_Redexes <> Ap constr
+R2882:2883 LamSF_Redexes <> V2 var
+R2879:2880 LamSF_Redexes <> V1 var
+R2877:2877 LamSF_Redexes <> b var
+R2857:2858 LamSF_Redexes <> Ap constr
+R2869:2870 LamSF_Redexes <> U2 var
+R2866:2867 LamSF_Redexes <> U1 var
+R2860:2864 Coq.Init.Datatypes <> false constr
+R2820:2822 LamSF_Redexes <> sub ind
+R2827:2828 LamSF_Redexes <> V2 var
+R2824:2825 LamSF_Redexes <> U2 var
+R2770:2772 LamSF_Redexes <> sub ind
+R2777:2778 LamSF_Redexes <> V1 var
+R2774:2775 LamSF_Redexes <> U1 var
+R2921:2927 LamSF_Redexes <> redexes ind
+R2970:2976 LamSF_Redexes <> redexes ind
+R3010:3013 Coq.Init.Datatypes <> bool ind
+R3017:3019 LamSF_Redexes <> sub ind
+R3038:3039 LamSF_Redexes <> Ap constr
+R3049:3050 LamSF_Redexes <> V2 var
+R3046:3047 LamSF_Redexes <> V1 var
+R3041:3044 Coq.Init.Datatypes <> true constr
+R3022:3023 LamSF_Redexes <> Ap constr
+R3033:3034 LamSF_Redexes <> U2 var
+R3030:3031 LamSF_Redexes <> U1 var
+R3025:3028 Coq.Init.Datatypes <> true constr
+R2985:2987 LamSF_Redexes <> sub ind
+R2992:2993 LamSF_Redexes <> V2 var
+R2989:2990 LamSF_Redexes <> U2 var
+R2936:2938 LamSF_Redexes <> sub ind
+R2943:2944 LamSF_Redexes <> V1 var
+R2940:2941 LamSF_Redexes <> U1 var
+R3090:3092 LamSF_Redexes <> sub ind
+R3103:3105 LamSF_Redexes <> Fun constr
+R3107:3107 LamSF_Redexes <> V var
+R3095:3097 LamSF_Redexes <> Fun constr
+R3099:3099 LamSF_Redexes <> U var
+R3079:3081 LamSF_Redexes <> sub ind
+R3085:3085 LamSF_Redexes <> V var
+R3083:3083 LamSF_Redexes <> U var
+R3126:3132 LamSF_Redexes <> Sub_Var constr
+R3134:3141 LamSF_Redexes <> Sub_Oper constr
+R3143:3149 LamSF_Redexes <> Sub_Fun constr
+R3151:3157 LamSF_Redexes <> Sub_Ap1 constr
+R3159:3165 LamSF_Redexes <> Sub_Ap2 constr
+def 3181:3188 <> bool_max
+R3198:3201 Coq.Init.Datatypes <> bool ind
+R3215:3215 LamSF_Redexes <> b var
+R3224:3227 Coq.Init.Datatypes <> bool ind
+R3238:3241 Coq.Init.Datatypes <> true constr
+R3246:3249 Coq.Init.Datatypes <> true constr
+R3255:3259 Coq.Init.Datatypes <> false constr
+R3264:3265 LamSF_Redexes <> b' var
+prf 3281:3289 <> max_false
+R3304:3307 Coq.Init.Datatypes <> bool ind
+R3326:3328 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3310:3317 LamSF_Redexes <> bool_max def
+R3321:3325 Coq.Init.Datatypes <> false constr
+R3319:3319 LamSF_Redexes <> b var
+R3329:3329 LamSF_Redexes <> b var
+ind 3399:3403 <> union
+constr 3452:3460 <> Union_Var
+constr 3513:3522 <> Union_Oper
+constr 3570:3577 <> Union_Ap
+constr 3796:3804 <> Union_Fun
+R3429:3435 LamSF_Redexes <> redexes ind
+R3418:3424 LamSF_Redexes <> redexes ind
+R3407:3413 LamSF_Redexes <> redexes ind
+R3474:3476 Coq.Init.Datatypes <> nat ind
+R3479:3483 LamSF_Redexes <> union ind
+R3502:3504 LamSF_Redexes <> Var constr
+R3506:3506 LamSF_Redexes <> i var
+R3494:3496 LamSF_Redexes <> Var constr
+R3498:3498 LamSF_Redexes <> i var
+R3486:3488 LamSF_Redexes <> Var constr
+R3490:3490 LamSF_Redexes <> i var
+R3536:3540 LamSF_Redexes <> union ind
+R3559:3561 LamSF_Redexes <> Opp constr
+R3563:3563 LamSF_Redexes <> o var
+R3551:3553 LamSF_Redexes <> Opp constr
+R3555:3555 LamSF_Redexes <> o var
+R3543:3545 LamSF_Redexes <> Opp constr
+R3547:3547 LamSF_Redexes <> o var
+R3605:3611 LamSF_Redexes <> redexes ind
+R3662:3668 LamSF_Redexes <> redexes ind
+R3717:3720 Coq.Init.Datatypes <> bool ind
+R3730:3734 LamSF_Redexes <> union ind
+R3765:3766 LamSF_Redexes <> Ap constr
+R3788:3789 LamSF_Redexes <> W2 var
+R3785:3786 LamSF_Redexes <> W1 var
+R3769:3776 LamSF_Redexes <> bool_max def
+R3781:3782 LamSF_Redexes <> b2 var
+R3778:3779 LamSF_Redexes <> b1 var
+R3751:3752 LamSF_Redexes <> Ap constr
+R3760:3761 LamSF_Redexes <> V2 var
+R3757:3758 LamSF_Redexes <> V1 var
+R3754:3755 LamSF_Redexes <> b2 var
+R3737:3738 LamSF_Redexes <> Ap constr
+R3746:3747 LamSF_Redexes <> U2 var
+R3743:3744 LamSF_Redexes <> U1 var
+R3740:3741 LamSF_Redexes <> b1 var
+R3677:3681 LamSF_Redexes <> union ind
+R3689:3690 LamSF_Redexes <> W2 var
+R3686:3687 LamSF_Redexes <> V2 var
+R3683:3684 LamSF_Redexes <> U2 var
+R3620:3624 LamSF_Redexes <> union ind
+R3632:3633 LamSF_Redexes <> W1 var
+R3629:3630 LamSF_Redexes <> V1 var
+R3626:3627 LamSF_Redexes <> U1 var
+R3837:3841 LamSF_Redexes <> union ind
+R3860:3862 LamSF_Redexes <> Fun constr
+R3864:3864 LamSF_Redexes <> W var
+R3852:3854 LamSF_Redexes <> Fun constr
+R3856:3856 LamSF_Redexes <> V var
+R3844:3846 LamSF_Redexes <> Fun constr
+R3848:3848 LamSF_Redexes <> U var
+R3822:3826 LamSF_Redexes <> union ind
+R3832:3832 LamSF_Redexes <> W var
+R3830:3830 LamSF_Redexes <> V var
+R3828:3828 LamSF_Redexes <> U var
+R3883:3891 LamSF_Redexes <> Union_Var constr
+R3893:3902 LamSF_Redexes <> Union_Oper constr
+R3904:3912 LamSF_Redexes <> Union_Fun constr
+R3914:3921 LamSF_Redexes <> Union_Ap constr
+prf 3931:3937 <> union_l
+R3956:3962 LamSF_Redexes <> redexes ind
+R3980:3982 LamSF_Redexes <> sub ind
+R3986:3986 LamSF_Redexes <> W var
+R3984:3984 LamSF_Redexes <> U var
+R3965:3969 LamSF_Redexes <> union ind
+R3975:3975 LamSF_Redexes <> W var
+R3973:3973 LamSF_Redexes <> V var
+R3971:3971 LamSF_Redexes <> U var
+R4067:4073 LamSF_Redexes <> Sub_Ap2 constr
+R4067:4073 LamSF_Redexes <> Sub_Ap2 constr
+R4067:4073 LamSF_Redexes <> Sub_Ap2 constr
+R4115:4121 LamSF_Redexes <> Sub_Ap1 constr
+R4115:4121 LamSF_Redexes <> Sub_Ap1 constr
+R4115:4121 LamSF_Redexes <> Sub_Ap1 constr
+prf 4145:4151 <> union_r
+R4170:4176 LamSF_Redexes <> redexes ind
+R4194:4196 LamSF_Redexes <> sub ind
+R4200:4200 LamSF_Redexes <> W var
+R4198:4198 LamSF_Redexes <> V var
+R4179:4183 LamSF_Redexes <> union ind
+R4189:4189 LamSF_Redexes <> W var
+R4187:4187 LamSF_Redexes <> V var
+R4185:4185 LamSF_Redexes <> U var
+R4281:4287 LamSF_Redexes <> Sub_Ap2 constr
+R4281:4287 LamSF_Redexes <> Sub_Ap2 constr
+R4281:4287 LamSF_Redexes <> Sub_Ap2 constr
+R4329:4335 LamSF_Redexes <> Sub_Ap1 constr
+R4329:4335 LamSF_Redexes <> Sub_Ap1 constr
+R4329:4335 LamSF_Redexes <> Sub_Ap1 constr
+prf 4359:4370 <> bool_max_Sym
+R4388:4391 Coq.Init.Datatypes <> bool ind
+R4407:4409 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4394:4401 LamSF_Redexes <> bool_max def
+R4405:4406 LamSF_Redexes <> b' var
+R4403:4403 LamSF_Redexes <> b var
+R4410:4417 LamSF_Redexes <> bool_max def
+R4422:4422 LamSF_Redexes <> b var
+R4419:4420 LamSF_Redexes <> b' var
+prf 4509:4517 <> union_sym
+R4536:4542 LamSF_Redexes <> redexes ind
+R4560:4564 LamSF_Redexes <> union ind
+R4570:4570 LamSF_Redexes <> W var
+R4568:4568 LamSF_Redexes <> U var
+R4566:4566 LamSF_Redexes <> V var
+R4545:4549 LamSF_Redexes <> union ind
+R4555:4555 LamSF_Redexes <> W var
+R4553:4553 LamSF_Redexes <> V var
+R4551:4551 LamSF_Redexes <> U var
+R4620:4631 LamSF_Redexes <> bool_max_Sym thm
+R4620:4631 LamSF_Redexes <> bool_max_Sym thm
+ind 4732:4735 <> comp
+constr 4773:4780 <> Comp_Var
+constr 4824:4832 <> Comp_Oper
+constr 4872:4878 <> Comp_Ap
+constr 5042:5049 <> Comp_Fun
+R4750:4756 LamSF_Redexes <> redexes ind
+R4739:4745 LamSF_Redexes <> redexes ind
+R4794:4796 Coq.Init.Datatypes <> nat ind
+R4799:4802 LamSF_Redexes <> comp ind
+R4813:4815 LamSF_Redexes <> Var constr
+R4817:4817 LamSF_Redexes <> i var
+R4805:4807 LamSF_Redexes <> Var constr
+R4809:4809 LamSF_Redexes <> i var
+R4846:4849 LamSF_Redexes <> comp ind
+R4860:4862 LamSF_Redexes <> Opp constr
+R4864:4864 LamSF_Redexes <> o var
+R4852:4854 LamSF_Redexes <> Opp constr
+R4856:4856 LamSF_Redexes <> o var
+R4903:4909 LamSF_Redexes <> redexes ind
+R4953:4959 LamSF_Redexes <> redexes ind
+R4998:5001 Coq.Init.Datatypes <> bool ind
+R5005:5008 LamSF_Redexes <> comp ind
+R5025:5026 LamSF_Redexes <> Ap constr
+R5034:5035 LamSF_Redexes <> V2 var
+R5031:5032 LamSF_Redexes <> V1 var
+R5028:5029 LamSF_Redexes <> b2 var
+R5011:5012 LamSF_Redexes <> Ap constr
+R5020:5021 LamSF_Redexes <> U2 var
+R5017:5018 LamSF_Redexes <> U1 var
+R5014:5015 LamSF_Redexes <> b1 var
+R4968:4971 LamSF_Redexes <> comp ind
+R4976:4977 LamSF_Redexes <> V2 var
+R4973:4974 LamSF_Redexes <> U2 var
+R4918:4921 LamSF_Redexes <> comp ind
+R4926:4927 LamSF_Redexes <> V1 var
+R4923:4924 LamSF_Redexes <> U1 var
+R5077:5080 LamSF_Redexes <> comp ind
+R5091:5093 LamSF_Redexes <> Fun constr
+R5095:5095 LamSF_Redexes <> V var
+R5083:5085 LamSF_Redexes <> Fun constr
+R5087:5087 LamSF_Redexes <> U var
+R5065:5068 LamSF_Redexes <> comp ind
+R5072:5072 LamSF_Redexes <> V var
+R5070:5070 LamSF_Redexes <> U var
+R5113:5120 LamSF_Redexes <> Comp_Var constr
+R5122:5130 LamSF_Redexes <> Comp_Oper constr
+R5132:5139 LamSF_Redexes <> Comp_Fun constr
+R5141:5147 LamSF_Redexes <> Comp_Ap constr
+prf 5157:5165 <> comp_refl
+R5180:5186 LamSF_Redexes <> redexes ind
+R5189:5192 LamSF_Redexes <> comp ind
+R5196:5196 LamSF_Redexes <> U var
+R5194:5194 LamSF_Redexes <> U var
+prf 5244:5251 <> comp_sym
+R5268:5274 LamSF_Redexes <> redexes ind
+R5289:5292 LamSF_Redexes <> comp ind
+R5296:5296 LamSF_Redexes <> U var
+R5294:5294 LamSF_Redexes <> V var
+R5277:5280 LamSF_Redexes <> comp ind
+R5284:5284 LamSF_Redexes <> V var
+R5282:5282 LamSF_Redexes <> U var
+prf 5344:5353 <> comp_trans
+R5371:5377 LamSF_Redexes <> redexes ind
+R5405:5411 LamSF_Redexes <> redexes ind
+R5421:5424 LamSF_Redexes <> comp ind
+R5428:5428 LamSF_Redexes <> W var
+R5426:5426 LamSF_Redexes <> V var
+R5432:5435 LamSF_Redexes <> comp ind
+R5439:5439 LamSF_Redexes <> W var
+R5437:5437 LamSF_Redexes <> U var
+R5381:5384 LamSF_Redexes <> comp ind
+R5388:5388 LamSF_Redexes <> V var
+R5386:5386 LamSF_Redexes <> U var
+prf 5510:5522 <> union_defined
+R5540:5546 LamSF_Redexes <> redexes ind
+R5561:5567 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R5579:5580 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R5572:5578 LamSF_Redexes <> redexes ind
+R5581:5585 LamSF_Redexes <> union ind
+R5591:5591 LamSF_Redexes <> W var
+R5589:5589 LamSF_Redexes <> V var
+R5587:5587 LamSF_Redexes <> U var
+R5549:5552 LamSF_Redexes <> comp ind
+R5556:5556 LamSF_Redexes <> V var
+R5554:5554 LamSF_Redexes <> U var
+def 5746:5752 <> regular
+R5759:5765 LamSF_Redexes <> redexes ind
+R5786:5786 LamSF_Redexes <> U var
+R5797:5799 LamSF_Redexes <> Var constr
+R5806:5809 Coq.Init.Logic <> True ind
+R5815:5817 LamSF_Redexes <> Opp constr
+R5824:5827 Coq.Init.Logic <> True ind
+R5833:5834 LamSF_Redexes <> Ap constr
+R5836:5839 Coq.Init.Datatypes <> true constr
+R5842:5844 LamSF_Redexes <> Fun constr
+R5868:5871 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5859:5865 LamSF_Redexes <> regular def
+R5872:5878 LamSF_Redexes <> regular def
+R5886:5887 LamSF_Redexes <> Ap constr
+R5889:5892 Coq.Init.Datatypes <> true constr
+R5901:5905 Coq.Init.Logic <> False ind
+R5911:5912 LamSF_Redexes <> Ap constr
+R5914:5918 Coq.Init.Datatypes <> false constr
+R5936:5939 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R5927:5933 LamSF_Redexes <> regular def
+R5940:5946 LamSF_Redexes <> regular def
+R5954:5956 LamSF_Redexes <> Fun constr
+R5963:5969 LamSF_Redexes <> regular def
+prf 5987:6008 <> union_preserve_regular
+R6028:6034 LamSF_Redexes <> redexes ind
+R6078:6084 LamSF_Redexes <> regular def
+R6086:6086 LamSF_Redexes <> W var
+R6065:6071 LamSF_Redexes <> regular def
+R6073:6073 LamSF_Redexes <> V var
+R6052:6058 LamSF_Redexes <> regular def
+R6060:6060 LamSF_Redexes <> U var
+R6037:6041 LamSF_Redexes <> union ind
+R6047:6047 LamSF_Redexes <> W var
+R6045:6045 LamSF_Redexes <> V var
+R6043:6043 LamSF_Redexes <> U var

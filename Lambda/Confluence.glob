@@ -1,0 +1,67 @@
+DIGEST 1695b570be911aae376ebc88e74de157
+FConfluence
+R2283:2287 Coq.Arith.Arith <> <> lib
+R2305:2311 General <> <> lib
+R2329:2333 Terms <> <> lib
+R2351:2364 Lambda_tactics <> <> lib
+R2382:2390 Reduction <> <> lib
+R2408:2414 Redexes <> <> lib
+R2432:2435 Test <> <> lib
+R2453:2457 Marks <> <> lib
+R2475:2486 Substitution <> <> lib
+R2504:2512 Residuals <> <> lib
+R2530:2539 Simulation <> <> lib
+R2557:2560 Cube <> <> lib
+def 2594:2603 <> confluence
+R2625:2625 Confluence <> A var
+R2620:2620 Confluence <> A var
+R2654:2654 Confluence <> A var
+R2679:2679 Confluence <> A var
+R2691:2697 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2703:2704 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R2702:2702 Confluence <> A var
+R2710:2713 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2705:2705 Confluence <> R var
+R2709:2709 Confluence <> u var
+R2707:2707 Confluence <> y var
+R2714:2714 Confluence <> R var
+R2718:2718 Confluence <> u var
+R2716:2716 Confluence <> z var
+R2682:2682 Confluence <> R var
+R2686:2686 Confluence <> z var
+R2684:2684 Confluence <> x var
+R2659:2659 Confluence <> R var
+R2663:2663 Confluence <> y var
+R2661:2661 Confluence <> x var
+prf 2856:2869 <> parallel_moves
+R2873:2882 Confluence <> confluence def
+R2891:2898 Reduction <> par_red1 ind
+R2884:2889 Terms <> lambda ind
+R2948:2957 Simulation <> simulation thm
+R2948:2957 Simulation <> simulation thm
+R2991:3000 Simulation <> simulation thm
+R2991:3000 Simulation <> simulation thm
+R3054:3059 Cube <> paving thm
+R3084:3087 Marks <> mark def
+R3075:3078 Marks <> mark def
+R3066:3069 Marks <> mark def
+R3054:3059 Cube <> paving thm
+R3084:3087 Marks <> mark def
+R3075:3078 Marks <> mark def
+R3066:3069 Marks <> mark def
+R3206:3211 Marks <> unmark def
+R3206:3211 Marks <> unmark def
+R3235:3241 Marks <> inverse thm
+R3235:3241 Marks <> inverse thm
+R3253:3275 Simulation <> completeness thm
+R3253:3275 Simulation <> completeness thm
+R3315:3321 Marks <> inverse thm
+R3315:3321 Marks <> inverse thm
+R3333:3355 Simulation <> completeness thm
+R3333:3355 Simulation <> completeness thm
+prf 3400:3428 <> confluence_parallel_reduction
+R3432:3441 Confluence <> confluence def
+R3450:3456 Reduction <> par_red def
+R3443:3448 Terms <> lambda ind
+R3479:3492 Lambda_tactics <> diamond_tiling thm
+R3503:3516 Confluence <> parallel_moves thm
