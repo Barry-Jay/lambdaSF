@@ -86,6 +86,7 @@ coqc Equal.v;
 coqc Eta;
  
 coqc Homomorphism; 
+
 coqc Combinators.v;
 coqc Extensional_to_combinator.v
 coqc Binding.v;
