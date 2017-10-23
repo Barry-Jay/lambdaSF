@@ -51,6 +51,7 @@ Require Import Eta.
 Require Import Extensional_to_combinator.
 Require Import Unstar. 
 Require Import Binding. 
+Require Import Omega.
 
 (* to_combinator_int *) 
 

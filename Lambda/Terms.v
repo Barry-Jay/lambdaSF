@@ -35,8 +35,8 @@
 
 
 Require Import Arith.
-Require Import General.
-Require Import Test.
+Require Import Lambda.General.
+Require Import Lambda.Test.
 
 
 (* lambda terms using de Bruijn's indices *)

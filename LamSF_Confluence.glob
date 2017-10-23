@@ -13,10 +13,14 @@ R2532:2546 LamSF_Residuals <> <> lib
 R2564:2579 LamSF_Simulation <> <> lib
 R2597:2606 LamSF_Cube <> <> lib
 def 2640:2649 <> confluence
+R2667:2670 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2672:2675 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2671:2671 LamSF_Confluence <> A var
 R2666:2666 LamSF_Confluence <> A var
 R2700:2700 LamSF_Confluence <> A var
+R2710:2713 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2725:2725 LamSF_Confluence <> A var
+R2733:2736 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2737:2743 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
 R2749:2750 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
 R2748:2748 LamSF_Confluence <> A var
@@ -53,8 +57,10 @@ R3251:3256 LamSF_Marks <> unmark def
 R3251:3256 LamSF_Marks <> unmark def
 R3280:3286 LamSF_Marks <> inverse thm
 R3280:3286 LamSF_Marks <> inverse thm
+R3280:3286 LamSF_Marks <> inverse thm
 R3298:3309 LamSF_Simulation <> completeness thm
 R3298:3309 LamSF_Simulation <> completeness thm
+R3349:3355 LamSF_Marks <> inverse thm
 R3349:3355 LamSF_Marks <> inverse thm
 R3349:3355 LamSF_Marks <> inverse thm
 R3367:3378 LamSF_Simulation <> completeness thm

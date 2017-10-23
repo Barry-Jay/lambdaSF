@@ -14,6 +14,7 @@ R2396:2396 Test <> n var
 R2400:2400 Test <> m var
 def 2572:2576 <> le_lt
 R2593:2595 Coq.Init.Datatypes <> nat ind
+R2604:2607 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2608:2608 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
 R2614:2618 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
 R2624:2624 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not

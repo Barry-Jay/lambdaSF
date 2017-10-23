@@ -34,11 +34,11 @@
 (**********************************************************************)
 
 Require Import Arith.
-Require Import Test.
-Require Import General.
-Require Import Terms.
-Require Import Redexes.
-Require Import Residuals.
+Require Import Lambda.Test.
+Require Import Lambda.General.
+Require Import Lambda.Terms.
+Require Import Lambda.Redexes.
+Require Import Lambda.Residuals.
 
 (* Translation from terms to redexes *)
 

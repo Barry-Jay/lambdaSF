@@ -37,7 +37,9 @@ R2535:2536 LamSF_Terms <> Op constr
 R2538:2538 Eta <> o var
 R2528:2529 LamSF_Terms <> Op constr
 R2531:2531 Eta <> o var
+R2600:2609 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2624:2628 LamSF_Terms <> lamSF ind
+R2647:2650 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2651:2661 Eta <> beta_eta_eq ind
 R2674:2676 LamSF_Terms <> App constr
 R2681:2682 Eta <> N' var
@@ -51,6 +53,7 @@ R2643:2643 Eta <> N var
 R2584:2594 Eta <> beta_eta_eq ind
 R2598:2599 Eta <> M' var
 R2596:2596 Eta <> M var
+R2734:2737 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2738:2748 Eta <> beta_eta_eq ind
 R2759:2761 LamSF_Terms <> Abs constr
 R2763:2764 Eta <> M' var
@@ -60,6 +63,8 @@ R2718:2728 Eta <> beta_eta_eq ind
 R2732:2733 Eta <> M' var
 R2730:2730 Eta <> M var
 R2800:2804 LamSF_Terms <> lamSF ind
+R2837:2840 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2857:2875 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2876:2886 Eta <> beta_eta_eq ind
 R2905:2909 LamSF_Terms <> subst def
 R2914:2915 Eta <> M' var
@@ -75,6 +80,7 @@ R2821:2831 Eta <> beta_eta_eq ind
 R2835:2836 Eta <> M' var
 R2833:2833 Eta <> M var
 R2946:2950 LamSF_Terms <> lamSF ind
+R2983:3000 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3001:3011 Eta <> beta_eta_eq ind
 R3050:3051 Eta <> M' var
 R3014:3016 LamSF_Terms <> Abs constr
@@ -86,6 +92,9 @@ R2967:2977 Eta <> beta_eta_eq ind
 R2981:2982 Eta <> M' var
 R2979:2979 Eta <> M var
 R3093:3097 LamSF_Terms <> lamSF ind
+R3130:3133 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3150:3153 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3170:3204 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3205:3215 Eta <> beta_eta_eq ind
 R3286:3288 LamSF_Terms <> App constr
 R3303:3305 LamSF_Terms <> App constr
@@ -110,6 +119,7 @@ R3146:3146 Eta <> N var
 R3114:3124 Eta <> beta_eta_eq ind
 R3128:3129 Eta <> M' var
 R3126:3126 Eta <> M var
+R3365:3384 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3385:3395 Eta <> beta_eta_eq ind
 R3431:3432 Eta <> M' var
 R3398:3400 LamSF_Terms <> App constr
@@ -123,12 +133,15 @@ R3412:3415 SF_reduction <> f_op def
 R3349:3359 Eta <> beta_eta_eq ind
 R3363:3364 Eta <> M' var
 R3361:3361 Eta <> M var
+R3482:3485 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3486:3496 Eta <> beta_eta_eq ind
 R3501:3501 Eta <> M var
 R3498:3499 Eta <> M' var
 R3466:3476 Eta <> beta_eta_eq ind
 R3480:3481 Eta <> M' var
 R3478:3478 Eta <> M var
+R3551:3554 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3570:3573 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3574:3584 Eta <> beta_eta_eq ind
 R3588:3588 Eta <> P var
 R3586:3586 Eta <> M var
@@ -138,30 +151,18 @@ R3567:3567 Eta <> N var
 R3536:3546 Eta <> beta_eta_eq ind
 R3550:3550 Eta <> N var
 R3548:3548 Eta <> M var
-R3607:3616 Eta <> ref_etared constr
-R3618:3626 Eta <> op_etared constr
-R3628:3637 Eta <> app_etared constr
-R3639:3648 Eta <> abs_etared constr
-R3654:3661 Eta <> beta_red constr
-R3663:3669 Eta <> eta_red constr
-R3671:3678 Eta <> s_etared constr
-R3680:3687 Eta <> k_etared constr
-R3689:3699 Eta <> symm_etared constr
-R3701:3712 Eta <> trans_etared constr
 prf 3723:3744 <> reflective_beta_eta_eq
 R3748:3757 LamSF_Tactics <> reflective def
 R3759:3769 Eta <> beta_eta_eq ind
-R3827:3848 Eta <> reflective_beta_eta_eq thm
 prf 3859:3883 <> preserves_abs_beta_eta_eq
 R3887:3899 LamSF_Tactics <> preserves_abs def
 R3901:3911 Eta <> beta_eta_eq ind
-R3958:3982 Eta <> preserves_abs_beta_eta_eq thm
 prf 3993:4017 <> preserves_app_beta_eta_eq
 R4021:4033 LamSF_Tactics <> preserves_app def
 R4035:4045 Eta <> beta_eta_eq ind
-R4092:4116 Eta <> preserves_app_beta_eta_eq thm
 def 4133:4138 <> stable
 R4145:4151 LamSF_Tactics <> termred def
+R4176:4179 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R4181:4183 Coq.Init.Logic <> :type_scope:x_'='_x not
 R4180:4180 Eta <> N var
 R4184:4184 Eta <> M var
@@ -169,6 +170,7 @@ R4169:4171 Eta <> red var
 R4175:4175 Eta <> N var
 R4173:4173 Eta <> M var
 prf 4194:4210 <> stable_multi_step
+R4240:4243 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R4244:4249 Eta <> stable def
 R4268:4268 Eta <> M var
 R4252:4261 LamSF_Tactics <> multi_step ind
@@ -179,6 +181,8 @@ R4235:4237 Eta <> red var
 R4328:4329 Coq.Init.Logic <> :type_scope:x_'='_x not
 R4328:4329 Coq.Init.Logic <> :type_scope:x_'='_x not
 prf 4392:4401 <> stable_seq
+R4438:4441 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4455:4458 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R4459:4464 Eta <> stable def
 R4489:4489 Eta <> M var
 R4467:4476 LamSF_Tactics <> sequential ind
@@ -614,6 +618,7 @@ R7301:7312 Eta <> trans_etared constr
 R7368:7372 LamSF_Terms <> subst def
 R7383:7401 LamSF_Substitution_term <> subst_rec_lift_rec2 thm
 R7383:7401 LamSF_Substitution_term <> subst_rec_lift_rec2 thm
+R7383:7401 LamSF_Substitution_term <> subst_rec_lift_rec2 thm
 R7436:7440 LamSF_Terms <> subst def
 R7451:7458 LamSF_Terms <> lift_rec def
 R7443:7445 Eta <> ref def
@@ -623,5 +628,6 @@ R7451:7458 LamSF_Terms <> lift_rec def
 R7443:7445 Eta <> ref def
 R7417:7428 Eta <> trans_etared constr
 R7484:7488 LamSF_Terms <> subst def
+R7499:7517 LamSF_Substitution_term <> subst_rec_lift_rec2 thm
 R7499:7517 LamSF_Substitution_term <> subst_rec_lift_rec2 thm
 R7499:7517 LamSF_Substitution_term <> subst_rec_lift_rec2 thm

@@ -35,6 +35,8 @@ Require Import Test.
 Require Import General.
 Require Import LamSF_Terms.
 Require Import LamSF_Tactics.
+Require Import Omega.
+
 
 
 (* Lifting lemmas *)

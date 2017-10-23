@@ -48,6 +48,7 @@ Require Import Eta.
 Require Import Equal.
 Require Import Combinators.
 Require Import Binding.
+Require Import Omega.
 
 
 (* unstar *) 

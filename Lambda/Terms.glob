@@ -1,116 +1,124 @@
-DIGEST f781c81e1c98016a87c15b1259546ab5
-FTerms
+DIGEST cb4498b050f09a7c30d5a9cb018d6b31
+FLambda.Terms
 R2283:2287 Coq.Arith.Arith <> <> lib
-R2305:2311 General <> <> lib
-R2329:2332 Test <> <> lib
-ind 2394:2399 <> lambda
-constr 2414:2416 <> Ref
-constr 2439:2441 <> Abs
-constr 2468:2470 <> App
-R2427:2432 Terms <> lambda ind
-R2420:2422 Coq.Init.Datatypes <> nat ind
-R2455:2460 Terms <> lambda ind
-R2445:2450 Terms <> lambda ind
-R2494:2499 Terms <> lambda ind
-R2484:2489 Terms <> lambda ind
-R2474:2479 Terms <> lambda ind
-prf 2510:2532 <> decidable_term_equality
-R2549:2554 Terms <> lambda ind
-R2563:2566 Coq.Init.Logic <> :type_scope:x_'\/'_x not
-R2559:2561 Coq.Init.Logic <> :type_scope:x_'='_x not
-R2558:2558 Terms <> M var
-R2562:2562 Terms <> N var
-R2568:2570 Coq.Init.Logic <> :type_scope:x_'<>'_x not
-R2567:2567 Terms <> M var
-R2571:2571 Terms <> N var
-R2671:2684 General <> decidable_nats thm
-R2671:2684 General <> decidable_nats thm
-def 2915:2922 <> relocate
-R2933:2935 Coq.Init.Datatypes <> nat ind
-R2949:2952 Test <> test def
-R2956:2956 Terms <> i var
-R2954:2954 Terms <> k var
-R2985:2988 Coq.Init.Specif <> left constr
-R2996:2996 Coq.Init.Peano <> :nat_scope:x_'+'_x not
-R2995:2995 Terms <> n var
-R2997:2997 Terms <> i var
-R3020:3020 Terms <> i var
-def 3039:3046 <> lift_rec
-R3053:3058 Terms <> lambda ind
-R3077:3082 Terms <> lambda ind
-R3070:3072 Coq.Init.Datatypes <> nat ind
-R3063:3065 Coq.Init.Datatypes <> nat ind
-R3109:3109 Terms <> L var
-R3120:3122 Terms <> Ref constr
-R3129:3131 Terms <> Ref constr
-R3134:3141 Terms <> relocate def
-R3147:3147 Terms <> n var
-R3145:3145 Terms <> k var
-R3154:3156 Terms <> App constr
-R3165:3167 Terms <> App constr
-R3187:3194 Terms <> lift_rec def
-R3200:3200 Terms <> n var
-R3198:3198 Terms <> k var
-R3170:3177 Terms <> lift_rec def
-R3183:3183 Terms <> n var
-R3181:3181 Terms <> k var
-R3207:3209 Terms <> Abs constr
-R3216:3218 Terms <> Abs constr
-R3221:3228 Terms <> lift_rec def
-R3238:3238 Terms <> n var
-R3233:3233 Coq.Init.Datatypes <> S constr
-R3235:3235 Terms <> k var
-def 3260:3263 <> lift
-R3270:3272 Coq.Init.Datatypes <> nat ind
-R3280:3285 Terms <> lambda ind
-R3291:3298 Terms <> lift_rec def
-R3304:3304 Terms <> n var
-R3300:3300 Terms <> N var
-def 3340:3349 <> insert_Ref
-R3356:3361 Terms <> lambda ind
-R3371:3373 Coq.Init.Datatypes <> nat ind
-R3387:3393 Test <> compare def
-R3397:3397 Terms <> i var
-R3395:3395 Terms <> k var
-R3422:3427 Coq.Init.Specif <> inleft constr
-R3430:3433 Coq.Init.Specif <> left constr
-R3441:3443 Terms <> Ref constr
-R3446:3449 Coq.Init.Peano <> pred def
-R3451:3451 Terms <> i var
-R3469:3474 Coq.Init.Specif <> inleft constr
-R3481:3484 Terms <> lift def
-R3488:3488 Terms <> N var
-R3486:3486 Terms <> k var
-R3510:3512 Terms <> Ref constr
-R3514:3514 Terms <> i var
-def 3533:3541 <> subst_rec
-R3548:3553 Terms <> lambda ind
-R3575:3580 Terms <> lambda ind
-R3568:3570 Coq.Init.Datatypes <> nat ind
-R3558:3563 Terms <> lambda ind
-R3596:3601 Terms <> lambda ind
-R3609:3611 Coq.Init.Datatypes <> nat ind
-R3625:3625 Terms <> L var
-R3636:3638 Terms <> Ref constr
-R3645:3654 Terms <> insert_Ref def
-R3660:3660 Terms <> k var
-R3656:3656 Terms <> N var
-R3666:3668 Terms <> App constr
-R3678:3680 Terms <> App constr
-R3701:3709 Terms <> subst_rec def
-R3716:3716 Terms <> k var
-R3714:3714 Terms <> N var
-R3683:3691 Terms <> subst_rec def
-R3697:3697 Terms <> k var
-R3695:3695 Terms <> N var
-R3723:3725 Terms <> Abs constr
-R3732:3734 Terms <> Abs constr
-R3737:3745 Terms <> subst_rec def
-R3752:3752 Coq.Init.Datatypes <> S constr
-R3754:3754 Terms <> k var
-R3749:3749 Terms <> N var
-def 3778:3782 <> subst
-R3791:3796 Terms <> lambda ind
-R3802:3810 Terms <> subst_rec def
-R3814:3814 Terms <> N var
-R3812:3812 Terms <> M var
+R2305:2318 Lambda.General <> <> lib
+R2336:2346 Lambda.Test <> <> lib
+ind 2408:2413 <> lambda
+constr 2428:2430 <> Ref
+constr 2453:2455 <> Abs
+constr 2482:2484 <> App
+R2437:2440 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2441:2446 Lambda.Terms <> lambda ind
+R2434:2436 Coq.Init.Datatypes <> nat ind
+R2465:2468 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2469:2474 Lambda.Terms <> lambda ind
+R2459:2464 Lambda.Terms <> lambda ind
+R2494:2497 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2504:2507 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2508:2513 Lambda.Terms <> lambda ind
+R2498:2503 Lambda.Terms <> lambda ind
+R2488:2493 Lambda.Terms <> lambda ind
+prf 2524:2546 <> decidable_term_equality
+R2563:2568 Lambda.Terms <> lambda ind
+R2577:2580 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R2573:2575 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2572:2572 Lambda.Terms <> M var
+R2576:2576 Lambda.Terms <> N var
+R2582:2584 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R2581:2581 Lambda.Terms <> M var
+R2585:2585 Lambda.Terms <> N var
+R2685:2698 Lambda.General <> decidable_nats thm
+R2685:2698 Lambda.General <> decidable_nats thm
+def 2929:2936 <> relocate
+R2947:2949 Coq.Init.Datatypes <> nat ind
+R2963:2966 Lambda.Test <> test def
+R2970:2970 Lambda.Terms <> i var
+R2968:2968 Lambda.Terms <> k var
+R2999:3002 Coq.Init.Specif <> left constr
+R3010:3010 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3009:3009 Lambda.Terms <> n var
+R3011:3011 Lambda.Terms <> i var
+R3034:3034 Lambda.Terms <> i var
+def 3053:3060 <> lift_rec
+R3067:3072 Lambda.Terms <> lambda ind
+R3080:3083 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3087:3090 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3091:3096 Lambda.Terms <> lambda ind
+R3084:3086 Coq.Init.Datatypes <> nat ind
+R3077:3079 Coq.Init.Datatypes <> nat ind
+R3123:3123 Lambda.Terms <> L var
+R3134:3136 Lambda.Terms <> Ref constr
+R3143:3145 Lambda.Terms <> Ref constr
+R3148:3155 Lambda.Terms <> relocate def
+R3161:3161 Lambda.Terms <> n var
+R3159:3159 Lambda.Terms <> k var
+R3168:3170 Lambda.Terms <> App constr
+R3179:3181 Lambda.Terms <> App constr
+R3201:3208 Lambda.Terms <> lift_rec def
+R3214:3214 Lambda.Terms <> n var
+R3212:3212 Lambda.Terms <> k var
+R3184:3191 Lambda.Terms <> lift_rec def
+R3197:3197 Lambda.Terms <> n var
+R3195:3195 Lambda.Terms <> k var
+R3221:3223 Lambda.Terms <> Abs constr
+R3230:3232 Lambda.Terms <> Abs constr
+R3235:3242 Lambda.Terms <> lift_rec def
+R3252:3252 Lambda.Terms <> n var
+R3247:3247 Coq.Init.Datatypes <> S constr
+R3249:3249 Lambda.Terms <> k var
+def 3274:3277 <> lift
+R3284:3286 Coq.Init.Datatypes <> nat ind
+R3294:3299 Lambda.Terms <> lambda ind
+R3305:3312 Lambda.Terms <> lift_rec def
+R3318:3318 Lambda.Terms <> n var
+R3314:3314 Lambda.Terms <> N var
+def 3354:3363 <> insert_Ref
+R3370:3375 Lambda.Terms <> lambda ind
+R3385:3387 Coq.Init.Datatypes <> nat ind
+R3401:3407 Lambda.Test <> compare def
+R3411:3411 Lambda.Terms <> i var
+R3409:3409 Lambda.Terms <> k var
+R3436:3441 Coq.Init.Specif <> inleft constr
+R3444:3447 Coq.Init.Specif <> left constr
+R3455:3457 Lambda.Terms <> Ref constr
+R3460:3463 Coq.Init.Peano <> pred syndef
+R3465:3465 Lambda.Terms <> i var
+R3483:3488 Coq.Init.Specif <> inleft constr
+R3495:3498 Lambda.Terms <> lift def
+R3502:3502 Lambda.Terms <> N var
+R3500:3500 Lambda.Terms <> k var
+R3524:3526 Lambda.Terms <> Ref constr
+R3528:3528 Lambda.Terms <> i var
+def 3547:3555 <> subst_rec
+R3562:3567 Lambda.Terms <> lambda ind
+R3578:3581 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3585:3588 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3589:3594 Lambda.Terms <> lambda ind
+R3582:3584 Coq.Init.Datatypes <> nat ind
+R3572:3577 Lambda.Terms <> lambda ind
+R3610:3615 Lambda.Terms <> lambda ind
+R3623:3625 Coq.Init.Datatypes <> nat ind
+R3639:3639 Lambda.Terms <> L var
+R3650:3652 Lambda.Terms <> Ref constr
+R3659:3668 Lambda.Terms <> insert_Ref def
+R3674:3674 Lambda.Terms <> k var
+R3670:3670 Lambda.Terms <> N var
+R3680:3682 Lambda.Terms <> App constr
+R3692:3694 Lambda.Terms <> App constr
+R3715:3723 Lambda.Terms <> subst_rec def
+R3730:3730 Lambda.Terms <> k var
+R3728:3728 Lambda.Terms <> N var
+R3697:3705 Lambda.Terms <> subst_rec def
+R3711:3711 Lambda.Terms <> k var
+R3709:3709 Lambda.Terms <> N var
+R3737:3739 Lambda.Terms <> Abs constr
+R3746:3748 Lambda.Terms <> Abs constr
+R3751:3759 Lambda.Terms <> subst_rec def
+R3766:3766 Coq.Init.Datatypes <> S constr
+R3768:3768 Lambda.Terms <> k var
+R3763:3763 Lambda.Terms <> N var
+def 3792:3796 <> subst
+R3805:3810 Lambda.Terms <> lambda ind
+R3816:3824 Lambda.Terms <> subst_rec def
+R3828:3828 Lambda.Terms <> N var
+R3826:3826 Lambda.Terms <> M var

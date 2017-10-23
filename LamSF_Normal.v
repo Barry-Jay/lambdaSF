@@ -37,6 +37,7 @@ Require Import LamSF_Tactics.
 Require Import LamSF_Substitution_term.
 Require Import SF_reduction.
 Require Import LamSF_reduction.
+Require Import Omega.
 
 
 (* normal terms *) 

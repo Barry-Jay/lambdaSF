@@ -31,9 +31,9 @@
 (**********************************************************************)
 
 Require Import Arith.
-Require Import General.
-Require Import Test.
-Require Import Terms.
+Require Import Lambda.General.
+Require Import Lambda.Test.
+Require Import Lambda.Terms.
 
 (*****************************)
 (* Terms with marked redexes *)

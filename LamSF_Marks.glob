@@ -46,6 +46,7 @@ R2900:2903 LamSF_Marks <> mark def
 R2905:2905 LamSF_Marks <> M var
 prf 3030:3043 <> comp_unmark_eq
 R3060:3066 LamSF_Redexes <> redexes ind
+R3077:3080 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3089:3091 Coq.Init.Logic <> :type_scope:x_'='_x not
 R3081:3086 LamSF_Marks <> unmark def
 R3088:3088 LamSF_Marks <> U var
@@ -62,4 +63,3 @@ R3299:3302 LamSF_Marks <> mark def
 R3304:3304 LamSF_Marks <> M var
 R3290:3293 LamSF_Marks <> mark def
 R3295:3295 LamSF_Marks <> M var
-R3367:3380 LamSF_Marks <> residuals_mark thm
