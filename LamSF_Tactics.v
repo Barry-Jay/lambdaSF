@@ -32,7 +32,8 @@
 Require Import Arith.
 Require Import Test. 
 Require Import General.
-Require Import LamSF_Terms. 
+Require Import LamSF_Terms.
+Require Import Omega.
 
 Definition termred := lamSF -> lamSF -> Prop.
 

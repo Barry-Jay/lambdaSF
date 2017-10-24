@@ -46,6 +46,7 @@ Require Import LamSF_Closed.
 Require Import LamSF_Eval.
 Require Import Equal.
 Require Import Combinators.
+Require Import Omega.
 
 
 Ltac eval_lamSF := eval_lamSF0;  relocate_lt; unfold subst; unfold subst_rec; fold subst_rec; insert_Ref_out; repeat (rewrite lift_rec_null). 

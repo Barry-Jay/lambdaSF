@@ -35,19 +35,19 @@ Require Import Arith.
 Require Import Max. 
 Require Import Test.
 Require Import General. 
-Require Import "Lambda/Terms".
-Require Import "Lambda/Lambda_tactics".
-Require Import "Lambda/Substitution_term".
-Require Import "Lambda/Reduction".
-Require Import "Lambda/Redexes".
-Require Import "Lambda/Substitution".
-Require Import "Lambda/Residuals".
-Require Import "Lambda/Marks".
-Require Import "Lambda/Simulation".
-Require Import "Lambda/Cube".
-Require Import "Lambda/Confluence".
-Require Import "Lambda/Eta".
-Require Import "Lambda/Closed".
+Require Import Lambda.Terms.
+Require Import Lambda.Lambda_tactics.
+Require Import Lambda.Substitution_term.
+Require Import Lambda.Reduction.
+Require Import Lambda.Redexes.
+Require Import Lambda.Substitution.
+Require Import Lambda.Residuals.
+Require Import Lambda.Marks.
+Require Import Lambda.Simulation.
+Require Import Lambda.Cube.
+Require Import Lambda.Confluence.
+Require Import Lambda.Eta.
+Require Import Lambda.Closed.
 Require Import LamSF_Terms.
 Require Import LamSF_Tactics.
 Require Import LamSF_Substitution_term.
@@ -56,6 +56,7 @@ Require Import LamSF_reduction.
 Require Import LamSF_Normal.
 Require Import LamSF_Closed.
 Require Import LamSF_Eval.
+Require Import Omega.
 
 Definition ref := Terms.Ref. 
 Definition ap := Terms.App . 

@@ -30,9 +30,10 @@
 (**********************************************************************)
 
 Require Import Arith.
-Require Import Terms. 
-Require Import Test. 
-Require Import General.
+Require Import Lambda.Terms. 
+Require Import Lambda.Test. 
+Require Import Lambda.General.
+Require Import Omega.
 
 Definition termred := lambda -> lambda -> Prop.
 

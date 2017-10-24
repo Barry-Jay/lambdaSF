@@ -42,6 +42,7 @@ Require Import LamSF_reduction.
 Require Import LamSF_Normal.
 Require Import LamSF_Closed.
 Require Import LamSF_Eval.
+Require Import Omega.
 
 
 

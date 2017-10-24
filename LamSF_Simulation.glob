@@ -61,6 +61,7 @@ R3162:3168 Test <> compare def
 R3162:3168 Test <> compare def
 R3217:3225 LamSF_Simulation <> mark_lift thm
 R3217:3225 LamSF_Simulation <> mark_lift thm
+R3217:3225 LamSF_Simulation <> mark_lift thm
 prf 3255:3264 <> mark_subst
 R3282:3286 LamSF_Terms <> lamSF ind
 R3314:3316 Coq.Init.Logic <> :type_scope:x_'='_x not
@@ -79,6 +80,7 @@ R3402:3415 LamSF_Simulation <> mark_subst_rec thm
 R3402:3415 LamSF_Simulation <> mark_subst_rec thm
 def 3473:3481 <> simulates
 R3489:3495 LamSF_Tactics <> termred def
+R3525:3528 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3529:3535 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
 R3537:3538 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
 R3539:3547 LamSF_Residuals <> residuals ind
@@ -91,6 +93,7 @@ R3517:3519 LamSF_Simulation <> red var
 R3523:3524 LamSF_Simulation <> M' var
 R3521:3521 LamSF_Simulation <> M var
 prf 3579:3588 <> simulation
+R3618:3621 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3622:3628 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
 R3630:3631 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
 R3632:3640 LamSF_Residuals <> residuals ind
@@ -103,6 +106,7 @@ R3605:3612 Beta_Reduction <> par_red1 ind
 R3616:3617 LamSF_Simulation <> M' var
 R3614:3614 LamSF_Simulation <> M var
 R3710:3714 LamSF_Terms <> subst def
+R3728:3741 LamSF_Simulation <> mark_subst_rec thm
 R3728:3741 LamSF_Simulation <> mark_subst_rec thm
 R3728:3741 LamSF_Simulation <> mark_subst_rec thm
 R3751:3752 LamSF_Redexes <> Ap constr
@@ -163,6 +167,7 @@ R4430:4436 Test <> compare def
 R4430:4436 Test <> compare def
 R4485:4495 LamSF_Simulation <> unmark_lift thm
 R4485:4495 LamSF_Simulation <> unmark_lift thm
+R4485:4495 LamSF_Simulation <> unmark_lift thm
 prf 4525:4536 <> unmark_subst
 R4554:4560 LamSF_Redexes <> redexes ind
 R4590:4592 Coq.Init.Logic <> :type_scope:x_'='_x not
@@ -181,6 +186,7 @@ R4682:4697 LamSF_Simulation <> unmark_subst_rec thm
 R4682:4697 LamSF_Simulation <> unmark_subst_rec thm
 prf 4712:4723 <> completeness
 R4743:4749 LamSF_Redexes <> redexes ind
+R4767:4770 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R4771:4778 Beta_Reduction <> par_red1 ind
 R4792:4797 LamSF_Marks <> unmark def
 R4799:4799 LamSF_Simulation <> W var
@@ -195,14 +201,15 @@ R4872:4878 LamSF_Substitution <> subst_r def
 R4895:4899 LamSF_Terms <> subst def
 R4914:4919 LamSF_Marks <> unmark def
 R4902:4907 LamSF_Marks <> unmark def
+R4864:4869 LamSF_Marks <> unmark def
+R4872:4878 LamSF_Substitution <> subst_r def
 R4895:4899 LamSF_Terms <> subst def
 R4914:4919 LamSF_Marks <> unmark def
 R4902:4907 LamSF_Marks <> unmark def
-R4864:4869 LamSF_Marks <> unmark def
-R4872:4878 LamSF_Substitution <> subst_r def
 R4936:4943 Beta_Reduction <> beta_red constr
 R4954:4958 LamSF_Terms <> subst def
 R4961:4967 LamSF_Substitution <> subst_r def
+R4990:5005 LamSF_Simulation <> unmark_subst_rec thm
 R4990:5005 LamSF_Simulation <> unmark_subst_rec thm
 R4990:5005 LamSF_Simulation <> unmark_subst_rec thm
 def 5195:5203 <> reduction
@@ -218,6 +225,8 @@ R5264:5264 LamSF_Simulation <> M var
 prf 5286:5303 <> reduction_function
 R5324:5328 LamSF_Terms <> lamSF ind
 R5336:5342 LamSF_Redexes <> redexes ind
+R5362:5365 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5381:5384 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R5386:5388 Coq.Init.Logic <> :type_scope:x_'='_x not
 R5385:5385 LamSF_Simulation <> N var
 R5389:5389 LamSF_Simulation <> P var
@@ -240,6 +249,8 @@ R5479:5485 LamSF_Marks <> inverse thm
 R5500:5506 LamSF_Marks <> inverse thm
 R5518:5531 LamSF_Marks <> comp_unmark_eq thm
 R5479:5485 LamSF_Marks <> inverse thm
+R5479:5485 LamSF_Marks <> inverse thm
+R5500:5506 LamSF_Marks <> inverse thm
 R5500:5506 LamSF_Marks <> inverse thm
 R5518:5531 LamSF_Marks <> comp_unmark_eq thm
 R5580:5583 LamSF_Marks <> mark def

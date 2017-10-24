@@ -9,14 +9,20 @@ constr 2347:2349 <> Var
 constr 2373:2375 <> Opp
 constr 2403:2404 <> Ap
 constr 2450:2452 <> Fun
+R2356:2359 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2360:2366 LamSF_Redexes <> redexes ind
 R2353:2355 Coq.Init.Datatypes <> nat ind
+R2387:2390 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2391:2397 LamSF_Redexes <> redexes ind
 R2379:2386 LamSF_Terms <> operator ind
+R2412:2415 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2423:2426 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2434:2437 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2438:2444 LamSF_Redexes <> redexes ind
 R2427:2433 LamSF_Redexes <> redexes ind
 R2416:2422 LamSF_Redexes <> redexes ind
 R2408:2411 Coq.Init.Datatypes <> bool ind
+R2463:2466 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2467:2473 LamSF_Redexes <> redexes ind
 R2456:2462 LamSF_Redexes <> redexes ind
 ind 2588:2590 <> sub
@@ -25,6 +31,8 @@ constr 2679:2686 <> Sub_Oper
 constr 2724:2730 <> Sub_Ap1
 constr 2890:2896 <> Sub_Ap2
 constr 3056:3062 <> Sub_Fun
+R2601:2604 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2612:2615 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2605:2611 LamSF_Redexes <> redexes ind
 R2594:2600 LamSF_Redexes <> redexes ind
 R2650:2652 Coq.Init.Datatypes <> nat ind
@@ -39,7 +47,9 @@ R2717:2717 LamSF_Redexes <> o var
 R2705:2707 LamSF_Redexes <> Opp constr
 R2709:2709 LamSF_Redexes <> o var
 R2755:2761 LamSF_Redexes <> redexes ind
+R2779:2788 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2804:2810 LamSF_Redexes <> redexes ind
+R2829:2832 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2845:2848 Coq.Init.Datatypes <> bool ind
 R2852:2854 LamSF_Redexes <> sub ind
 R2874:2875 LamSF_Redexes <> Ap constr
@@ -57,7 +67,9 @@ R2770:2772 LamSF_Redexes <> sub ind
 R2777:2778 LamSF_Redexes <> V1 var
 R2774:2775 LamSF_Redexes <> U1 var
 R2921:2927 LamSF_Redexes <> redexes ind
+R2945:2954 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2970:2976 LamSF_Redexes <> redexes ind
+R2994:2997 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3010:3013 Coq.Init.Datatypes <> bool ind
 R3017:3019 LamSF_Redexes <> sub ind
 R3038:3039 LamSF_Redexes <> Ap constr
@@ -74,6 +86,7 @@ R2989:2990 LamSF_Redexes <> U2 var
 R2936:2938 LamSF_Redexes <> sub ind
 R2943:2944 LamSF_Redexes <> V1 var
 R2940:2941 LamSF_Redexes <> U1 var
+R3086:3089 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3090:3092 LamSF_Redexes <> sub ind
 R3103:3105 LamSF_Redexes <> Fun constr
 R3107:3107 LamSF_Redexes <> V var
@@ -82,11 +95,6 @@ R3099:3099 LamSF_Redexes <> U var
 R3079:3081 LamSF_Redexes <> sub ind
 R3085:3085 LamSF_Redexes <> V var
 R3083:3083 LamSF_Redexes <> U var
-R3126:3132 LamSF_Redexes <> Sub_Var constr
-R3134:3141 LamSF_Redexes <> Sub_Oper constr
-R3143:3149 LamSF_Redexes <> Sub_Fun constr
-R3151:3157 LamSF_Redexes <> Sub_Ap1 constr
-R3159:3165 LamSF_Redexes <> Sub_Ap2 constr
 def 3181:3188 <> bool_max
 R3198:3201 Coq.Init.Datatypes <> bool ind
 R3215:3215 LamSF_Redexes <> b var
@@ -107,6 +115,9 @@ constr 3452:3460 <> Union_Var
 constr 3513:3522 <> Union_Oper
 constr 3570:3577 <> Union_Ap
 constr 3796:3804 <> Union_Fun
+R3414:3417 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3425:3428 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3436:3439 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3429:3435 LamSF_Redexes <> redexes ind
 R3418:3424 LamSF_Redexes <> redexes ind
 R3407:3413 LamSF_Redexes <> redexes ind
@@ -126,7 +137,9 @@ R3555:3555 LamSF_Redexes <> o var
 R3543:3545 LamSF_Redexes <> Opp constr
 R3547:3547 LamSF_Redexes <> o var
 R3605:3611 LamSF_Redexes <> redexes ind
+R3634:3643 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3662:3668 LamSF_Redexes <> redexes ind
+R3691:3700 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3717:3720 Coq.Init.Datatypes <> bool ind
 R3730:3734 LamSF_Redexes <> union ind
 R3765:3766 LamSF_Redexes <> Ap constr
@@ -151,6 +164,7 @@ R3620:3624 LamSF_Redexes <> union ind
 R3632:3633 LamSF_Redexes <> W1 var
 R3629:3630 LamSF_Redexes <> V1 var
 R3626:3627 LamSF_Redexes <> U1 var
+R3833:3836 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3837:3841 LamSF_Redexes <> union ind
 R3860:3862 LamSF_Redexes <> Fun constr
 R3864:3864 LamSF_Redexes <> W var
@@ -162,12 +176,9 @@ R3822:3826 LamSF_Redexes <> union ind
 R3832:3832 LamSF_Redexes <> W var
 R3830:3830 LamSF_Redexes <> V var
 R3828:3828 LamSF_Redexes <> U var
-R3883:3891 LamSF_Redexes <> Union_Var constr
-R3893:3902 LamSF_Redexes <> Union_Oper constr
-R3904:3912 LamSF_Redexes <> Union_Fun constr
-R3914:3921 LamSF_Redexes <> Union_Ap constr
 prf 3931:3937 <> union_l
 R3956:3962 LamSF_Redexes <> redexes ind
+R3976:3979 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3980:3982 LamSF_Redexes <> sub ind
 R3986:3986 LamSF_Redexes <> W var
 R3984:3984 LamSF_Redexes <> U var
@@ -183,6 +194,7 @@ R4115:4121 LamSF_Redexes <> Sub_Ap1 constr
 R4115:4121 LamSF_Redexes <> Sub_Ap1 constr
 prf 4145:4151 <> union_r
 R4170:4176 LamSF_Redexes <> redexes ind
+R4190:4193 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R4194:4196 LamSF_Redexes <> sub ind
 R4200:4200 LamSF_Redexes <> W var
 R4198:4198 LamSF_Redexes <> V var
@@ -207,6 +219,7 @@ R4422:4422 LamSF_Redexes <> b var
 R4419:4420 LamSF_Redexes <> b' var
 prf 4509:4517 <> union_sym
 R4536:4542 LamSF_Redexes <> redexes ind
+R4556:4559 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R4560:4564 LamSF_Redexes <> union ind
 R4570:4570 LamSF_Redexes <> W var
 R4568:4568 LamSF_Redexes <> U var
@@ -217,11 +230,14 @@ R4553:4553 LamSF_Redexes <> V var
 R4551:4551 LamSF_Redexes <> U var
 R4620:4631 LamSF_Redexes <> bool_max_Sym thm
 R4620:4631 LamSF_Redexes <> bool_max_Sym thm
+R4620:4631 LamSF_Redexes <> bool_max_Sym thm
 ind 4732:4735 <> comp
 constr 4773:4780 <> Comp_Var
 constr 4824:4832 <> Comp_Oper
 constr 4872:4878 <> Comp_Ap
 constr 5042:5049 <> Comp_Fun
+R4746:4749 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4757:4760 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R4750:4756 LamSF_Redexes <> redexes ind
 R4739:4745 LamSF_Redexes <> redexes ind
 R4794:4796 Coq.Init.Datatypes <> nat ind
@@ -236,7 +252,9 @@ R4864:4864 LamSF_Redexes <> o var
 R4852:4854 LamSF_Redexes <> Opp constr
 R4856:4856 LamSF_Redexes <> o var
 R4903:4909 LamSF_Redexes <> redexes ind
+R4928:4937 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R4953:4959 LamSF_Redexes <> redexes ind
+R4978:4981 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R4998:5001 Coq.Init.Datatypes <> bool ind
 R5005:5008 LamSF_Redexes <> comp ind
 R5025:5026 LamSF_Redexes <> Ap constr
@@ -253,6 +271,7 @@ R4973:4974 LamSF_Redexes <> U2 var
 R4918:4921 LamSF_Redexes <> comp ind
 R4926:4927 LamSF_Redexes <> V1 var
 R4923:4924 LamSF_Redexes <> U1 var
+R5073:5076 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R5077:5080 LamSF_Redexes <> comp ind
 R5091:5093 LamSF_Redexes <> Fun constr
 R5095:5095 LamSF_Redexes <> V var
@@ -261,10 +280,6 @@ R5087:5087 LamSF_Redexes <> U var
 R5065:5068 LamSF_Redexes <> comp ind
 R5072:5072 LamSF_Redexes <> V var
 R5070:5070 LamSF_Redexes <> U var
-R5113:5120 LamSF_Redexes <> Comp_Var constr
-R5122:5130 LamSF_Redexes <> Comp_Oper constr
-R5132:5139 LamSF_Redexes <> Comp_Fun constr
-R5141:5147 LamSF_Redexes <> Comp_Ap constr
 prf 5157:5165 <> comp_refl
 R5180:5186 LamSF_Redexes <> redexes ind
 R5189:5192 LamSF_Redexes <> comp ind
@@ -272,6 +287,7 @@ R5196:5196 LamSF_Redexes <> U var
 R5194:5194 LamSF_Redexes <> U var
 prf 5244:5251 <> comp_sym
 R5268:5274 LamSF_Redexes <> redexes ind
+R5285:5288 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R5289:5292 LamSF_Redexes <> comp ind
 R5296:5296 LamSF_Redexes <> U var
 R5294:5294 LamSF_Redexes <> V var
@@ -280,6 +296,7 @@ R5284:5284 LamSF_Redexes <> V var
 R5282:5282 LamSF_Redexes <> U var
 prf 5344:5353 <> comp_trans
 R5371:5377 LamSF_Redexes <> redexes ind
+R5389:5392 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R5405:5411 LamSF_Redexes <> redexes ind
 R5421:5424 LamSF_Redexes <> comp ind
 R5428:5428 LamSF_Redexes <> W var
@@ -292,6 +309,7 @@ R5388:5388 LamSF_Redexes <> V var
 R5386:5386 LamSF_Redexes <> U var
 prf 5510:5522 <> union_defined
 R5540:5546 LamSF_Redexes <> redexes ind
+R5557:5560 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R5561:5567 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
 R5579:5580 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
 R5572:5578 LamSF_Redexes <> redexes ind
@@ -327,6 +345,9 @@ R5954:5956 LamSF_Redexes <> Fun constr
 R5963:5969 LamSF_Redexes <> regular def
 prf 5987:6008 <> union_preserve_regular
 R6028:6034 LamSF_Redexes <> redexes ind
+R6048:6051 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6061:6064 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R6074:6077 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R6078:6084 LamSF_Redexes <> regular def
 R6086:6086 LamSF_Redexes <> W var
 R6065:6071 LamSF_Redexes <> regular def

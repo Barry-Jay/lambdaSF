@@ -33,13 +33,14 @@
 
 Require Import Arith.
 Require Import Max. 
-Require Import Test.
-Require Import General. 
-Require Import Terms.
-Require Import Lambda_tactics.
-Require Import Substitution_term.
-Require Import Reduction.
-Require Import Confluence.
+Require Import Omega.
+Require Import Lambda.Test.
+Require Import Lambda.General. 
+Require Import Lambda.Terms.
+Require Import Lambda.Lambda_tactics.
+Require Import Lambda.Substitution_term.
+Require Import Lambda.Reduction.
+Require Import Lambda.Confluence.
 
 
 Lemma subst_rec_lift_rec_null2 :

@@ -1,132 +1,137 @@
-DIGEST f11afa5232665af84454662422f23523
-FReduction
+DIGEST 7416a6ceb6777278f5c83ec929b8535e
+FLambda.Reduction
 R2136:2140 Coq.Arith.Arith <> <> lib
-R2158:2164 General <> <> lib
-R2182:2185 Test <> <> lib
-R2203:2207 Terms <> <> lib
-R2225:2238 Lambda_tactics <> <> lib
-R2256:2272 Substitution_term <> <> lib
-ind 2317:2324 <> par_red1
-constr 2343:2350 <> beta_red
-constr 2468:2478 <> ref_par_red
-constr 2521:2531 <> app_par_red
-constr 2658:2668 <> abs_par_red
-R2327:2333 Lambda_tactics <> termred def
-R2425:2432 Reduction <> par_red1 ind
-R2451:2455 Terms <> subst def
-R2460:2461 Reduction <> M' var
-R2457:2458 Reduction <> N' var
-R2435:2437 Terms <> App constr
-R2447:2447 Reduction <> N var
-R2440:2442 Terms <> Abs constr
-R2444:2444 Reduction <> M var
-R2389:2396 Reduction <> par_red1 ind
-R2400:2401 Reduction <> N' var
-R2398:2398 Reduction <> N var
-R2372:2379 Reduction <> par_red1 ind
-R2383:2384 Reduction <> M' var
-R2381:2381 Reduction <> M var
-R2492:2499 Reduction <> par_red1 ind
-R2510:2512 Terms <> Ref constr
-R2514:2514 Reduction <> i var
-R2502:2504 Terms <> Ref constr
-R2506:2506 Reduction <> i var
-R2598:2603 Terms <> lambda ind
-R2623:2630 Reduction <> par_red1 ind
-R2643:2645 Terms <> App constr
-R2650:2651 Reduction <> N' var
-R2647:2648 Reduction <> M' var
-R2633:2635 Terms <> App constr
-R2639:2639 Reduction <> N var
-R2637:2637 Reduction <> M var
-R2606:2613 Reduction <> par_red1 ind
-R2617:2618 Reduction <> N' var
-R2615:2615 Reduction <> N var
-R2561:2568 Reduction <> par_red1 ind
-R2572:2573 Reduction <> M' var
-R2570:2570 Reduction <> M var
-R2708:2715 Reduction <> par_red1 ind
-R2726:2728 Terms <> Abs constr
-R2730:2731 Reduction <> M' var
-R2718:2720 Terms <> Abs constr
-R2722:2722 Reduction <> M var
-R2691:2698 Reduction <> par_red1 ind
-R2702:2703 Reduction <> M' var
-R2700:2700 Reduction <> M var
-R2751:2758 Reduction <> beta_red constr
-R2760:2770 Reduction <> ref_par_red constr
-R2772:2782 Reduction <> abs_par_red constr
-R2784:2794 Reduction <> app_par_red constr
-def 2811:2817 <> par_red
-R2822:2831 Lambda_tactics <> multi_step ind
-R2833:2840 Reduction <> par_red1 ind
-prf 2851:2863 <> refl_par_red1
-R2866:2875 Lambda_tactics <> reflective def
-R2877:2884 Reduction <> par_red1 ind
-R2944:2956 Reduction <> refl_par_red1 thm
-prf 2967:2993 <> lift_rec_preserves_par_red1
-R2998:3015 Lambda_tactics <> lift_rec_preserves def
-R3017:3024 Reduction <> par_red1 ind
-R3070:3074 Terms <> subst def
-R3087:3087 Coq.Init.Logic <> :type_scope:x_'='_x not
-R3089:3089 Coq.Init.Peano <> :nat_scope:x_'+'_x not
-R3087:3087 Coq.Init.Logic <> :type_scope:x_'='_x not
-R3089:3089 Coq.Init.Peano <> :nat_scope:x_'+'_x not
-R3129:3146 Substitution_term <> lift_rec_subst_rec thm
-R3129:3146 Substitution_term <> lift_rec_subst_rec thm
-R3169:3176 Reduction <> beta_red constr
-R3200:3226 Reduction <> lift_rec_preserves_par_red1 thm
-prf 3237:3262 <> lift_rec_preserves_par_red
-R3268:3285 Lambda_tactics <> lift_rec_preserves def
-R3287:3293 Reduction <> par_red def
-R3316:3344 Lambda_tactics <> lift_rec_preserves_multi_step thm
-prf 3360:3387 <> subst_rec_preserves_par_red1
-R3391:3409 Lambda_tactics <> subst_rec_preserves def
-R3411:3418 Reduction <> par_red1 ind
-R3491:3495 Terms <> subst def
-R3519:3521 Coq.Init.Logic <> :type_scope:x_'='_x not
-R3523:3523 Coq.Init.Peano <> :nat_scope:x_'+'_x not
-R3519:3521 Coq.Init.Logic <> :type_scope:x_'='_x not
-R3523:3523 Coq.Init.Peano <> :nat_scope:x_'+'_x not
-R3564:3582 Substitution_term <> subst_rec_subst_rec thm
-R3564:3582 Substitution_term <> subst_rec_subst_rec thm
-R3593:3600 Reduction <> beta_red constr
-R3613:3622 Terms <> insert_Ref def
-R3630:3636 Test <> compare def
-R3630:3636 Test <> compare def
-R3684:3687 Terms <> lift def
-prf 3710:3736 <> preserves_lift_rec_par_red1
-R3740:3757 Lambda_tactics <> preserves_lift_rec def
-R3759:3766 Reduction <> par_red1 ind
-R3913:3917 Terms <> subst def
-R3913:3917 Terms <> subst def
-R3934:3938 Terms <> subst def
-R3967:3967 Coq.Init.Peano <> :nat_scope:x_'+'_x not
-R3967:3967 Coq.Init.Peano <> :nat_scope:x_'+'_x not
-R3990:4007 Substitution_term <> lift_rec_subst_rec thm
-R3990:4007 Substitution_term <> lift_rec_subst_rec thm
-R4074:4076 Terms <> App constr
-R4074:4076 Terms <> App constr
-R4144:4146 Terms <> Abs constr
-R4144:4146 Terms <> Abs constr
-prf 4165:4188 <> par_red1_preserves_lift1
-R4251:4257 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
-R4260:4261 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
-R4276:4279 Coq.Init.Logic <> :type_scope:x_'/\'_x not
-R4262:4269 Reduction <> par_red1 ind
-R4274:4275 Reduction <> N0 var
-R4271:4272 Reduction <> M0 var
-R4289:4291 Coq.Init.Logic <> :type_scope:x_'='_x not
-R4280:4283 Terms <> lift def
-R4287:4288 Reduction <> N0 var
-R4292:4292 Reduction <> N var
-R4232:4232 Coq.Init.Logic <> :type_scope:x_'='_x not
-R4242:4245 Coq.Init.Logic <> :type_scope:x_'='_x not
-R4233:4236 Terms <> lift def
-R4240:4241 Reduction <> M0 var
-R4246:4246 Reduction <> M var
-R4205:4212 Reduction <> par_red1 ind
-R4216:4216 Reduction <> N var
-R4214:4214 Reduction <> M var
-R4321:4324 Terms <> lift def
-R4340:4366 Reduction <> preserves_lift_rec_par_red1 thm
+R2158:2171 Lambda.General <> <> lib
+R2189:2193 Coq.omega.Omega <> <> lib
+R2211:2221 Lambda.Test <> <> lib
+R2239:2250 Lambda.Terms <> <> lib
+R2268:2288 Lambda.Lambda_tactics <> <> lib
+R2306:2329 Lambda.Substitution_term <> <> lib
+ind 2374:2381 <> par_red1
+constr 2400:2407 <> beta_red
+constr 2525:2535 <> ref_par_red
+constr 2578:2588 <> app_par_red
+constr 2715:2725 <> abs_par_red
+R2384:2390 Lambda.Lambda_tactics <> termred def
+R2442:2445 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2459:2481 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2482:2489 Lambda.Reduction <> par_red1 ind
+R2508:2512 Lambda.Terms <> subst def
+R2517:2518 Lambda.Reduction <> M' var
+R2514:2515 Lambda.Reduction <> N' var
+R2492:2494 Lambda.Terms <> App constr
+R2504:2504 Lambda.Reduction <> N var
+R2497:2499 Lambda.Terms <> Abs constr
+R2501:2501 Lambda.Reduction <> M var
+R2446:2453 Lambda.Reduction <> par_red1 ind
+R2457:2458 Lambda.Reduction <> N' var
+R2455:2455 Lambda.Reduction <> N var
+R2429:2436 Lambda.Reduction <> par_red1 ind
+R2440:2441 Lambda.Reduction <> M' var
+R2438:2438 Lambda.Reduction <> M var
+R2549:2556 Lambda.Reduction <> par_red1 ind
+R2567:2569 Lambda.Terms <> Ref constr
+R2571:2571 Lambda.Reduction <> i var
+R2559:2561 Lambda.Terms <> Ref constr
+R2563:2563 Lambda.Reduction <> i var
+R2631:2640 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2655:2660 Lambda.Terms <> lambda ind
+R2676:2679 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2680:2687 Lambda.Reduction <> par_red1 ind
+R2700:2702 Lambda.Terms <> App constr
+R2707:2708 Lambda.Reduction <> N' var
+R2704:2705 Lambda.Reduction <> M' var
+R2690:2692 Lambda.Terms <> App constr
+R2696:2696 Lambda.Reduction <> N var
+R2694:2694 Lambda.Reduction <> M var
+R2663:2670 Lambda.Reduction <> par_red1 ind
+R2674:2675 Lambda.Reduction <> N' var
+R2672:2672 Lambda.Reduction <> N var
+R2618:2625 Lambda.Reduction <> par_red1 ind
+R2629:2630 Lambda.Reduction <> M' var
+R2627:2627 Lambda.Reduction <> M var
+R2761:2764 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2765:2772 Lambda.Reduction <> par_red1 ind
+R2783:2785 Lambda.Terms <> Abs constr
+R2787:2788 Lambda.Reduction <> M' var
+R2775:2777 Lambda.Terms <> Abs constr
+R2779:2779 Lambda.Reduction <> M var
+R2748:2755 Lambda.Reduction <> par_red1 ind
+R2759:2760 Lambda.Reduction <> M' var
+R2757:2757 Lambda.Reduction <> M var
+def 2868:2874 <> par_red
+R2879:2888 Lambda.Lambda_tactics <> multi_step ind
+R2890:2897 Lambda.Reduction <> par_red1 ind
+prf 2908:2920 <> refl_par_red1
+R2923:2932 Lambda.Lambda_tactics <> reflective def
+R2934:2941 Lambda.Reduction <> par_red1 ind
+prf 3024:3050 <> lift_rec_preserves_par_red1
+R3055:3072 Lambda.Lambda_tactics <> lift_rec_preserves def
+R3074:3081 Lambda.Reduction <> par_red1 ind
+R3127:3131 Lambda.Terms <> subst def
+R3144:3144 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3146:3146 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3144:3144 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3146:3146 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3186:3203 Lambda.Substitution_term <> lift_rec_subst_rec thm
+R3186:3203 Lambda.Substitution_term <> lift_rec_subst_rec thm
+R3186:3203 Lambda.Substitution_term <> lift_rec_subst_rec thm
+R3226:3233 Lambda.Reduction <> beta_red constr
+prf 3294:3319 <> lift_rec_preserves_par_red
+R3325:3342 Lambda.Lambda_tactics <> lift_rec_preserves def
+R3344:3350 Lambda.Reduction <> par_red def
+R3373:3401 Lambda.Lambda_tactics <> lift_rec_preserves_multi_step thm
+prf 3417:3444 <> subst_rec_preserves_par_red1
+R3448:3466 Lambda.Lambda_tactics <> subst_rec_preserves def
+R3468:3475 Lambda.Reduction <> par_red1 ind
+R3548:3552 Lambda.Terms <> subst def
+R3576:3578 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3580:3580 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3576:3578 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3580:3580 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3621:3639 Lambda.Substitution_term <> subst_rec_subst_rec thm
+R3621:3639 Lambda.Substitution_term <> subst_rec_subst_rec thm
+R3621:3639 Lambda.Substitution_term <> subst_rec_subst_rec thm
+R3650:3657 Lambda.Reduction <> beta_red constr
+R3670:3679 Lambda.Terms <> insert_Ref def
+R3687:3693 Lambda.Test <> compare def
+R3687:3693 Lambda.Test <> compare def
+R3741:3744 Lambda.Terms <> lift def
+prf 3767:3793 <> preserves_lift_rec_par_red1
+R3797:3814 Lambda.Lambda_tactics <> preserves_lift_rec def
+R3816:3823 Lambda.Reduction <> par_red1 ind
+R3970:3974 Lambda.Terms <> subst def
+R3970:3974 Lambda.Terms <> subst def
+R3991:3995 Lambda.Terms <> subst def
+R4024:4024 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R4024:4024 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R4047:4064 Lambda.Substitution_term <> lift_rec_subst_rec thm
+R4047:4064 Lambda.Substitution_term <> lift_rec_subst_rec thm
+R4047:4064 Lambda.Substitution_term <> lift_rec_subst_rec thm
+R4131:4133 Lambda.Terms <> App constr
+R4131:4133 Lambda.Terms <> App constr
+R4201:4203 Lambda.Terms <> Abs constr
+R4201:4203 Lambda.Terms <> Abs constr
+prf 4222:4245 <> par_red1_preserves_lift1
+R4274:4277 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4304:4307 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4308:4314 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R4317:4318 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R4333:4336 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R4319:4326 Lambda.Reduction <> par_red1 ind
+R4331:4332 Lambda.Reduction <> N0 var
+R4328:4329 Lambda.Reduction <> M0 var
+R4346:4348 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4337:4340 Lambda.Terms <> lift def
+R4344:4345 Lambda.Reduction <> N0 var
+R4349:4349 Lambda.Reduction <> N var
+R4289:4289 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4299:4302 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4290:4293 Lambda.Terms <> lift def
+R4297:4298 Lambda.Reduction <> M0 var
+R4303:4303 Lambda.Reduction <> M var
+R4262:4269 Lambda.Reduction <> par_red1 ind
+R4273:4273 Lambda.Reduction <> N var
+R4271:4271 Lambda.Reduction <> M var
+R4378:4381 Lambda.Terms <> lift def
+R4397:4423 Lambda.Reduction <> preserves_lift_rec_par_red1 thm

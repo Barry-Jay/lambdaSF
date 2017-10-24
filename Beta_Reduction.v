@@ -35,6 +35,7 @@ Require Import Test.
 Require Import LamSF_Terms.
 Require Import LamSF_Tactics.
 Require Import LamSF_Substitution_term.
+Require Import Omega.
 
 (* Parallel beta reduction *)
 

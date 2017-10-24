@@ -34,11 +34,12 @@
 (**********************************************************************)
 
 Require Import Arith.
-Require Import Test.
-Require Import General.
-Require Import Terms.
-Require Import Substitution_term.
-Require Import Redexes.
+Require Import Lambda.Test.
+Require Import Lambda.General.
+Require Import Lambda.Terms.
+Require Import Lambda.Substitution_term.
+Require Import Lambda.Redexes.
+Require Import Omega.
 
 (****************************)
 (*  Substitution of redexes *)

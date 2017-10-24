@@ -13,12 +13,17 @@ constr 2472:2474 <> Ref
 constr 2496:2497 <> Op
 constr 2525:2527 <> Abs
 constr 2552:2554 <> App
+R2481:2484 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2485:2489 LamSF_Terms <> lamSF ind
 R2478:2480 Coq.Init.Datatypes <> nat ind
+R2510:2513 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2514:2518 LamSF_Terms <> lamSF ind
 R2502:2509 LamSF_Terms <> operator ind
+R2536:2539 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2540:2544 LamSF_Terms <> lamSF ind
 R2531:2535 LamSF_Terms <> lamSF ind
+R2563:2566 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2572:2575 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2576:2580 LamSF_Terms <> lamSF ind
 R2567:2571 LamSF_Terms <> lamSF ind
 R2558:2562 LamSF_Terms <> lamSF ind
@@ -45,6 +50,8 @@ R3155:3155 LamSF_Terms <> i var
 R3178:3178 LamSF_Terms <> i var
 def 3197:3204 <> lift_rec
 R3211:3215 LamSF_Terms <> lamSF ind
+R3223:3226 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3230:3233 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3234:3238 LamSF_Terms <> lamSF ind
 R3227:3229 Coq.Init.Datatypes <> nat ind
 R3220:3222 Coq.Init.Datatypes <> nat ind
@@ -85,7 +92,7 @@ R3566:3566 LamSF_Terms <> k var
 R3593:3598 Coq.Init.Specif <> inleft constr
 R3601:3604 Coq.Init.Specif <> left constr
 R3612:3614 LamSF_Terms <> Ref constr
-R3617:3620 Coq.Init.Peano <> pred def
+R3617:3620 Coq.Init.Peano <> pred syndef
 R3622:3622 LamSF_Terms <> i var
 R3640:3645 Coq.Init.Specif <> inleft constr
 R3652:3655 LamSF_Terms <> lift def
@@ -95,6 +102,8 @@ R3681:3683 LamSF_Terms <> Ref constr
 R3685:3685 LamSF_Terms <> i var
 def 3704:3712 <> subst_rec
 R3719:3723 LamSF_Terms <> lamSF ind
+R3733:3736 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3740:3743 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3744:3748 LamSF_Terms <> lamSF ind
 R3737:3739 Coq.Init.Datatypes <> nat ind
 R3728:3732 LamSF_Terms <> lamSF ind

@@ -34,23 +34,23 @@ The files for building the Lambda Calculus, including eta-reduction.
 *) 
 
 
-coqc General.v; 
-coqc Test.v;    
-coqc Terms.v;
-coqc Lambda_tactics.v 
-coqc Substitution_term.v; 
+coqc -Q . Lambda General.v; 
+coqc -Q . Lambda Test.v;    
+coqc -Q . Lambda Terms.v;
+coqc -Q . Lambda Lambda_tactics.v 
+coqc -Q . Lambda Substitution_term.v; 
 
-coqc Reduction.v;
-coqc Redexes.v;
-coqc Substitution.v;
-coqc Residuals.v;
-coqc Marks.v;
-coqc Simulation.v;
-coqc Cube.v;
-coqc Confluence.v;
+coqc -Q . Lambda Reduction.v;
+coqc -Q . Lambda Redexes.v;
+coqc -Q . Lambda Substitution.v;
+coqc -Q . Lambda Residuals.v;
+coqc -Q . Lambda Marks.v;
+coqc -Q . Lambda Simulation.v;
+coqc -Q . Lambda Cube.v;
+coqc -Q . Lambda Confluence.v;
 
-coqc Eta.v;
-coqc Closed.v;
+coqc -Q . Lambda Eta.v;
+coqc -Q . Lambda Closed.v;
 
 
 

@@ -33,13 +33,13 @@
 (**********************************************************************)
 
 Require Import Arith.
-Require Import Terms.
-Require Import General.
-Require Import Reduction.
-Require Import Redexes.
-Require Import Test.
-Require Import Substitution.
-Require Import Residuals.
+Require Import Lambda.Terms.
+Require Import Lambda.General.
+Require Import Lambda.Reduction.
+Require Import Lambda.Redexes.
+Require Import Lambda.Test.
+Require Import Lambda.Substitution.
+Require Import Lambda.Residuals.
 
 (*****************)
 (* Prism Theorem *)

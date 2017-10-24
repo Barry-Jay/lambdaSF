@@ -1,4 +1,4 @@
-DIGEST 2ed9f252cae4d6475b9ffad31cdb0a0a
+DIGEST b4bad27b73880da3f682a413203b08b5
 FBeta_Reduction
 R2136:2140 Coq.Arith.Arith <> <> lib
 R2158:2164 General <> <> lib
@@ -6,134 +6,138 @@ R2182:2185 Test <> <> lib
 R2203:2213 LamSF_Terms <> <> lib
 R2231:2243 LamSF_Tactics <> <> lib
 R2261:2283 LamSF_Substitution_term <> <> lib
-ind 2328:2335 <> par_red1
-constr 2354:2361 <> beta_red
-constr 2479:2489 <> ref_par_red
-constr 2532:2541 <> op_par_red
-constr 2582:2592 <> app_par_red
-constr 2718:2728 <> abs_par_red
-R2338:2344 LamSF_Tactics <> termred def
-R2436:2443 Beta_Reduction <> par_red1 ind
-R2462:2466 LamSF_Terms <> subst def
-R2471:2472 Beta_Reduction <> M' var
-R2468:2469 Beta_Reduction <> N' var
-R2446:2448 LamSF_Terms <> App constr
-R2458:2458 Beta_Reduction <> N var
-R2451:2453 LamSF_Terms <> Abs constr
-R2455:2455 Beta_Reduction <> M var
-R2400:2407 Beta_Reduction <> par_red1 ind
-R2411:2412 Beta_Reduction <> N' var
-R2409:2409 Beta_Reduction <> N var
-R2383:2390 Beta_Reduction <> par_red1 ind
-R2394:2395 Beta_Reduction <> M' var
-R2392:2392 Beta_Reduction <> M var
-R2503:2510 Beta_Reduction <> par_red1 ind
-R2521:2523 LamSF_Terms <> Ref constr
-R2525:2525 Beta_Reduction <> i var
-R2513:2515 LamSF_Terms <> Ref constr
-R2517:2517 Beta_Reduction <> i var
-R2555:2562 Beta_Reduction <> par_red1 ind
-R2572:2573 LamSF_Terms <> Op constr
-R2575:2575 Beta_Reduction <> o var
-R2565:2566 LamSF_Terms <> Op constr
-R2568:2568 Beta_Reduction <> o var
-R2659:2663 LamSF_Terms <> lamSF ind
-R2683:2690 Beta_Reduction <> par_red1 ind
-R2703:2705 LamSF_Terms <> App constr
-R2710:2711 Beta_Reduction <> N' var
-R2707:2708 Beta_Reduction <> M' var
-R2693:2695 LamSF_Terms <> App constr
-R2699:2699 Beta_Reduction <> N var
-R2697:2697 Beta_Reduction <> M var
-R2666:2673 Beta_Reduction <> par_red1 ind
-R2677:2678 Beta_Reduction <> N' var
-R2675:2675 Beta_Reduction <> N var
-R2622:2629 Beta_Reduction <> par_red1 ind
-R2633:2634 Beta_Reduction <> M' var
-R2631:2631 Beta_Reduction <> M var
-R2768:2775 Beta_Reduction <> par_red1 ind
-R2786:2788 LamSF_Terms <> Abs constr
-R2790:2791 Beta_Reduction <> M' var
-R2778:2780 LamSF_Terms <> Abs constr
+R2301:2305 Coq.omega.Omega <> <> lib
+ind 2350:2357 <> par_red1
+constr 2376:2383 <> beta_red
+constr 2501:2511 <> ref_par_red
+constr 2554:2563 <> op_par_red
+constr 2604:2614 <> app_par_red
+constr 2740:2750 <> abs_par_red
+R2360:2366 LamSF_Tactics <> termred def
+R2418:2421 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2435:2457 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2458:2465 Beta_Reduction <> par_red1 ind
+R2484:2488 LamSF_Terms <> subst def
+R2493:2494 Beta_Reduction <> M' var
+R2490:2491 Beta_Reduction <> N' var
+R2468:2470 LamSF_Terms <> App constr
+R2480:2480 Beta_Reduction <> N var
+R2473:2475 LamSF_Terms <> Abs constr
+R2477:2477 Beta_Reduction <> M var
+R2422:2429 Beta_Reduction <> par_red1 ind
+R2433:2434 Beta_Reduction <> N' var
+R2431:2431 Beta_Reduction <> N var
+R2405:2412 Beta_Reduction <> par_red1 ind
+R2416:2417 Beta_Reduction <> M' var
+R2414:2414 Beta_Reduction <> M var
+R2525:2532 Beta_Reduction <> par_red1 ind
+R2543:2545 LamSF_Terms <> Ref constr
+R2547:2547 Beta_Reduction <> i var
+R2535:2537 LamSF_Terms <> Ref constr
+R2539:2539 Beta_Reduction <> i var
+R2577:2584 Beta_Reduction <> par_red1 ind
+R2594:2595 LamSF_Terms <> Op constr
+R2597:2597 Beta_Reduction <> o var
+R2587:2588 LamSF_Terms <> Op constr
+R2590:2590 Beta_Reduction <> o var
+R2657:2666 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2681:2685 LamSF_Terms <> lamSF ind
+R2701:2704 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2705:2712 Beta_Reduction <> par_red1 ind
+R2725:2727 LamSF_Terms <> App constr
+R2732:2733 Beta_Reduction <> N' var
+R2729:2730 Beta_Reduction <> M' var
+R2715:2717 LamSF_Terms <> App constr
+R2721:2721 Beta_Reduction <> N var
+R2719:2719 Beta_Reduction <> M var
+R2688:2695 Beta_Reduction <> par_red1 ind
+R2699:2700 Beta_Reduction <> N' var
+R2697:2697 Beta_Reduction <> N var
+R2644:2651 Beta_Reduction <> par_red1 ind
+R2655:2656 Beta_Reduction <> M' var
+R2653:2653 Beta_Reduction <> M var
+R2786:2789 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2790:2797 Beta_Reduction <> par_red1 ind
+R2808:2810 LamSF_Terms <> Abs constr
+R2812:2813 Beta_Reduction <> M' var
+R2800:2802 LamSF_Terms <> Abs constr
+R2804:2804 Beta_Reduction <> M var
+R2773:2780 Beta_Reduction <> par_red1 ind
+R2784:2785 Beta_Reduction <> M' var
 R2782:2782 Beta_Reduction <> M var
-R2751:2758 Beta_Reduction <> par_red1 ind
-R2762:2763 Beta_Reduction <> M' var
-R2760:2760 Beta_Reduction <> M var
-R2811:2818 Beta_Reduction <> beta_red constr
-R2820:2830 Beta_Reduction <> ref_par_red constr
-R2832:2841 Beta_Reduction <> op_par_red constr
-R2843:2853 Beta_Reduction <> abs_par_red constr
-R2855:2865 Beta_Reduction <> app_par_red constr
-def 2882:2888 <> par_red
-R2893:2902 LamSF_Tactics <> multi_step ind
-R2904:2911 Beta_Reduction <> par_red1 ind
-prf 2922:2934 <> refl_par_red1
-R2937:2946 LamSF_Tactics <> reflective def
-R2948:2955 Beta_Reduction <> par_red1 ind
-R3015:3027 Beta_Reduction <> refl_par_red1 thm
-prf 3038:3064 <> lift_rec_preserves_par_red1
-R3069:3086 LamSF_Tactics <> lift_rec_preserves def
-R3088:3095 Beta_Reduction <> par_red1 ind
-R3141:3145 LamSF_Terms <> subst def
-R3158:3158 Coq.Init.Logic <> :type_scope:x_'='_x not
-R3160:3160 Coq.Init.Peano <> :nat_scope:x_'+'_x not
-R3158:3158 Coq.Init.Logic <> :type_scope:x_'='_x not
-R3160:3160 Coq.Init.Peano <> :nat_scope:x_'+'_x not
-R3200:3217 LamSF_Substitution_term <> lift_rec_subst_rec thm
-R3200:3217 LamSF_Substitution_term <> lift_rec_subst_rec thm
-R3240:3247 Beta_Reduction <> beta_red constr
-R3271:3297 Beta_Reduction <> lift_rec_preserves_par_red1 thm
-prf 3308:3333 <> lift_rec_preserves_par_red
-R3339:3356 LamSF_Tactics <> lift_rec_preserves def
-R3358:3364 Beta_Reduction <> par_red def
-R3387:3415 LamSF_Tactics <> lift_rec_preserves_multi_step thm
-prf 3431:3458 <> subst_rec_preserves_par_red1
-R3462:3480 LamSF_Tactics <> subst_rec_preserves def
-R3482:3489 Beta_Reduction <> par_red1 ind
-R3562:3566 LamSF_Terms <> subst def
-R3590:3592 Coq.Init.Logic <> :type_scope:x_'='_x not
-R3594:3594 Coq.Init.Peano <> :nat_scope:x_'+'_x not
-R3590:3592 Coq.Init.Logic <> :type_scope:x_'='_x not
-R3594:3594 Coq.Init.Peano <> :nat_scope:x_'+'_x not
-R3635:3653 LamSF_Substitution_term <> subst_rec_subst_rec thm
-R3635:3653 LamSF_Substitution_term <> subst_rec_subst_rec thm
-R3664:3671 Beta_Reduction <> beta_red constr
-R3684:3693 LamSF_Terms <> insert_Ref def
-R3701:3707 Test <> compare def
-R3701:3707 Test <> compare def
-R3755:3758 LamSF_Terms <> lift def
-prf 3781:3807 <> preserves_lift_rec_par_red1
-R3811:3828 LamSF_Tactics <> preserves_lift_rec def
-R3830:3837 Beta_Reduction <> par_red1 ind
-R3984:3988 LamSF_Terms <> subst def
-R3984:3988 LamSF_Terms <> subst def
-R4005:4009 LamSF_Terms <> subst def
-R4038:4038 Coq.Init.Peano <> :nat_scope:x_'+'_x not
-R4038:4038 Coq.Init.Peano <> :nat_scope:x_'+'_x not
-R4061:4078 LamSF_Substitution_term <> lift_rec_subst_rec thm
-R4061:4078 LamSF_Substitution_term <> lift_rec_subst_rec thm
-R4145:4147 LamSF_Terms <> App constr
-R4145:4147 LamSF_Terms <> App constr
-R4215:4217 LamSF_Terms <> Abs constr
-R4215:4217 LamSF_Terms <> Abs constr
-prf 4236:4259 <> par_red1_preserves_lift1
-R4322:4328 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
-R4331:4332 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
-R4347:4350 Coq.Init.Logic <> :type_scope:x_'/\'_x not
-R4333:4340 Beta_Reduction <> par_red1 ind
-R4345:4346 Beta_Reduction <> N0 var
-R4342:4343 Beta_Reduction <> M0 var
-R4360:4362 Coq.Init.Logic <> :type_scope:x_'='_x not
-R4351:4354 LamSF_Terms <> lift def
-R4358:4359 Beta_Reduction <> N0 var
-R4363:4363 Beta_Reduction <> N var
-R4303:4303 Coq.Init.Logic <> :type_scope:x_'='_x not
-R4313:4316 Coq.Init.Logic <> :type_scope:x_'='_x not
-R4304:4307 LamSF_Terms <> lift def
-R4311:4312 Beta_Reduction <> M0 var
-R4317:4317 Beta_Reduction <> M var
-R4276:4283 Beta_Reduction <> par_red1 ind
-R4287:4287 Beta_Reduction <> N var
-R4285:4285 Beta_Reduction <> M var
-R4392:4395 LamSF_Terms <> lift def
-R4411:4437 Beta_Reduction <> preserves_lift_rec_par_red1 thm
+def 2904:2910 <> par_red
+R2915:2924 LamSF_Tactics <> multi_step ind
+R2926:2933 Beta_Reduction <> par_red1 ind
+prf 2944:2956 <> refl_par_red1
+R2959:2968 LamSF_Tactics <> reflective def
+R2970:2977 Beta_Reduction <> par_red1 ind
+prf 3060:3086 <> lift_rec_preserves_par_red1
+R3091:3108 LamSF_Tactics <> lift_rec_preserves def
+R3110:3117 Beta_Reduction <> par_red1 ind
+R3163:3167 LamSF_Terms <> subst def
+R3180:3180 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3182:3182 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3180:3180 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3182:3182 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3222:3239 LamSF_Substitution_term <> lift_rec_subst_rec thm
+R3222:3239 LamSF_Substitution_term <> lift_rec_subst_rec thm
+R3222:3239 LamSF_Substitution_term <> lift_rec_subst_rec thm
+R3262:3269 Beta_Reduction <> beta_red constr
+prf 3330:3355 <> lift_rec_preserves_par_red
+R3361:3378 LamSF_Tactics <> lift_rec_preserves def
+R3380:3386 Beta_Reduction <> par_red def
+R3409:3437 LamSF_Tactics <> lift_rec_preserves_multi_step thm
+prf 3453:3480 <> subst_rec_preserves_par_red1
+R3484:3502 LamSF_Tactics <> subst_rec_preserves def
+R3504:3511 Beta_Reduction <> par_red1 ind
+R3584:3588 LamSF_Terms <> subst def
+R3612:3614 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3616:3616 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3612:3614 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3616:3616 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R3657:3675 LamSF_Substitution_term <> subst_rec_subst_rec thm
+R3657:3675 LamSF_Substitution_term <> subst_rec_subst_rec thm
+R3657:3675 LamSF_Substitution_term <> subst_rec_subst_rec thm
+R3686:3693 Beta_Reduction <> beta_red constr
+R3706:3715 LamSF_Terms <> insert_Ref def
+R3723:3729 Test <> compare def
+R3723:3729 Test <> compare def
+R3777:3780 LamSF_Terms <> lift def
+prf 3803:3829 <> preserves_lift_rec_par_red1
+R3833:3850 LamSF_Tactics <> preserves_lift_rec def
+R3852:3859 Beta_Reduction <> par_red1 ind
+R4006:4010 LamSF_Terms <> subst def
+R4006:4010 LamSF_Terms <> subst def
+R4027:4031 LamSF_Terms <> subst def
+R4060:4060 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R4060:4060 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R4083:4100 LamSF_Substitution_term <> lift_rec_subst_rec thm
+R4083:4100 LamSF_Substitution_term <> lift_rec_subst_rec thm
+R4083:4100 LamSF_Substitution_term <> lift_rec_subst_rec thm
+R4167:4169 LamSF_Terms <> App constr
+R4167:4169 LamSF_Terms <> App constr
+R4237:4239 LamSF_Terms <> Abs constr
+R4237:4239 LamSF_Terms <> Abs constr
+prf 4258:4281 <> par_red1_preserves_lift1
+R4310:4313 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4340:4343 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R4344:4350 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R4353:4354 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R4369:4372 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R4355:4362 Beta_Reduction <> par_red1 ind
+R4367:4368 Beta_Reduction <> N0 var
+R4364:4365 Beta_Reduction <> M0 var
+R4382:4384 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4373:4376 LamSF_Terms <> lift def
+R4380:4381 Beta_Reduction <> N0 var
+R4385:4385 Beta_Reduction <> N var
+R4325:4325 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4335:4338 Coq.Init.Logic <> :type_scope:x_'='_x not
+R4326:4329 LamSF_Terms <> lift def
+R4333:4334 Beta_Reduction <> M0 var
+R4339:4339 Beta_Reduction <> M var
+R4298:4305 Beta_Reduction <> par_red1 ind
+R4309:4309 Beta_Reduction <> N var
+R4307:4307 Beta_Reduction <> M var
+R4414:4417 LamSF_Terms <> lift def
+R4433:4459 Beta_Reduction <> preserves_lift_rec_par_red1 thm

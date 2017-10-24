@@ -48,6 +48,7 @@ Require Import LamSF_Eval.
 Require Import Equal.
 Require Import Combinators.
 Require Import Eta.
+Require Import Omega.
 
 
 (* to_combinator *) 

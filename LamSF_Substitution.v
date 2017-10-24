@@ -39,6 +39,7 @@ Require Import General.
 Require Import LamSF_Terms.
 Require Import LamSF_Substitution_term.
 Require Import LamSF_Redexes.
+Require Import Omega.
 
 (****************************)
 (*  Substitution of redexes *)

@@ -30,12 +30,13 @@
 
 
 Require Import Arith.
-Require Import Test.
-Require Import General. 
+Require Import Lambda.Test.
+Require Import Lambda.General. 
+Require Import Omega.
 Require Import Max. 
-Require Import Terms.
-Require Import Lambda_tactics.
-Require Import Substitution_term.
+Require Import Lambda.Terms.
+Require Import Lambda.Lambda_tactics.
+Require Import Lambda.Substitution_term.
 
 (* closed terms *) 
 

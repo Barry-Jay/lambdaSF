@@ -14,6 +14,9 @@ constr 2845:2855 <> Compat_Oper
 constr 2904:2913 <> Compat_Ap1
 constr 3116:3125 <> Compat_Ap2
 constr 3342:3351 <> Compat_Fun
+R2749:2752 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2760:2763 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2771:2774 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2764:2770 LamSF_Redexes <> redexes ind
 R2753:2759 LamSF_Redexes <> redexes ind
 R2742:2748 LamSF_Redexes <> redexes ind
@@ -32,7 +35,9 @@ R2889:2889 LamSF_Cube <> o var
 R2877:2879 LamSF_Redexes <> Opp constr
 R2881:2881 LamSF_Cube <> o var
 R2941:2947 LamSF_Redexes <> redexes ind
+R2971:2980 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R2999:3005 LamSF_Redexes <> redexes ind
+R3029:3038 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3051:3054 Coq.Init.Datatypes <> bool ind
 R3058:3063 LamSF_Cube <> compat ind
 R3100:3101 LamSF_Redexes <> Ap constr
@@ -55,7 +60,9 @@ R2956:2961 LamSF_Cube <> compat ind
 R2969:2970 LamSF_Cube <> W1 var
 R2966:2967 LamSF_Cube <> V1 var
 R2963:2964 LamSF_Cube <> U1 var
+R3174:3183 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3202:3208 LamSF_Redexes <> redexes ind
+R3232:3241 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3257:3260 Coq.Init.Datatypes <> bool ind
 R3270:3275 LamSF_Cube <> compat ind
 R3319:3320 LamSF_Redexes <> Ap constr
@@ -81,6 +88,7 @@ R3159:3164 LamSF_Cube <> compat ind
 R3172:3173 LamSF_Cube <> W1 var
 R3169:3170 LamSF_Cube <> V1 var
 R3166:3167 LamSF_Cube <> U1 var
+R3387:3390 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3391:3396 LamSF_Cube <> compat ind
 R3415:3417 LamSF_Redexes <> Fun constr
 R3419:3419 LamSF_Cube <> W var
@@ -92,13 +100,9 @@ R3375:3380 LamSF_Cube <> compat ind
 R3386:3386 LamSF_Cube <> W var
 R3384:3384 LamSF_Cube <> V var
 R3382:3382 LamSF_Cube <> U var
-R3438:3447 LamSF_Cube <> Compat_Var constr
-R3449:3459 LamSF_Cube <> Compat_Oper constr
-R3461:3470 LamSF_Cube <> Compat_Ap1 constr
-R3472:3481 LamSF_Cube <> Compat_Ap2 constr
-R3483:3492 LamSF_Cube <> Compat_Fun constr
 prf 3502:3513 <> compat_intro
 R3534:3540 LamSF_Redexes <> redexes ind
+R3560:3564 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R3580:3586 LamSF_Redexes <> redexes ind
 R3595:3603 LamSF_Residuals <> residuals ind
 R3609:3610 LamSF_Cube <> WV var
@@ -124,6 +128,7 @@ R4210:4219 LamSF_Cube <> Compat_Ap2 constr
 R4298:4307 LamSF_Cube <> Compat_Ap2 constr
 prf 4323:4328 <> prism0
 R4348:4354 LamSF_Redexes <> redexes ind
+R4370:4374 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R4388:4394 LamSF_Redexes <> redexes ind
 R4403:4411 LamSF_Residuals <> residuals ind
 R4417:4418 LamSF_Cube <> UV var
@@ -150,9 +155,13 @@ R4734:4740 LamSF_Substitution <> subst_r def
 R4751:4769 LamSF_Residuals <> residuals_subst_rec thm
 prf 5432:5437 <> prism1
 R5457:5463 LamSF_Redexes <> redexes ind
+R5474:5478 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R5491:5497 LamSF_Redexes <> redexes ind
+R5517:5521 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R5534:5540 LamSF_Redexes <> redexes ind
+R5560:5564 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R5577:5583 LamSF_Redexes <> redexes ind
+R5602:5605 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R5606:5614 LamSF_Residuals <> residuals ind
 R5622:5623 LamSF_Cube <> WU var
 R5619:5620 LamSF_Cube <> UV var
@@ -178,9 +187,14 @@ R5678:5689 LamSF_Cube <> compat_intro thm
 R5678:5689 LamSF_Cube <> compat_intro thm
 prf 5775:5780 <> prism2
 R5800:5806 LamSF_Redexes <> redexes ind
+R5817:5821 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R5831:5835 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R5848:5854 LamSF_Redexes <> redexes ind
+R5874:5878 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R5891:5897 LamSF_Redexes <> redexes ind
+R5917:5921 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R5934:5940 LamSF_Redexes <> redexes ind
+R5961:5964 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R5965:5973 LamSF_Residuals <> residuals ind
 R5979:5980 LamSF_Cube <> WU var
 R5977:5977 LamSF_Cube <> U var
@@ -218,8 +232,11 @@ R6207:6214 LamSF_Redexes <> comp_sym thm
 R6223:6236 LamSF_Residuals <> residuals_comp thm
 prf 6270:6274 <> prism
 R6294:6300 LamSF_Redexes <> redexes ind
+R6311:6315 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R6328:6334 LamSF_Redexes <> redexes ind
+R6354:6358 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R6371:6377 LamSF_Redexes <> redexes ind
+R6397:6401 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R6414:6420 LamSF_Redexes <> redexes ind
 R6439:6443 Coq.Init.Logic <> :type_scope:x_'<->'_x not
 R6423:6431 LamSF_Residuals <> residuals ind
@@ -253,7 +270,12 @@ R6645:6650 LamSF_Cube <> prism2 thm
 R6645:6650 LamSF_Cube <> prism2 thm
 prf 7151:7154 <> cube
 R7178:7184 LamSF_Redexes <> redexes ind
+R7204:7208 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7225:7229 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R7251:7257 LamSF_Redexes <> redexes ind
+R7277:7281 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7301:7304 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7321:7324 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R7325:7333 LamSF_Residuals <> residuals ind
 R7341:7343 LamSF_Cube <> WUV var
 R7338:7339 LamSF_Cube <> UV var
@@ -306,6 +328,8 @@ R7816:7824 LamSF_Redexes <> union_sym thm
 R7816:7824 LamSF_Redexes <> union_sym thm
 prf 7884:7889 <> paving
 R7915:7921 LamSF_Redexes <> redexes ind
+R7941:7945 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R7962:7966 Coq.Init.Logic <> :type_scope:x_'->'_x not
 R7967:7973 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
 R7986:7991 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
 R8085:8085 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not

@@ -38,6 +38,8 @@ Require Import General.
 Require Import LamSF_Terms.
 Require Import LamSF_Substitution.
 Require Import LamSF_Redexes.
+Require Import Omega.
+
 
 (*************************************************)
 (* Parallel beta reduction with residual tracing *)

@@ -33,11 +33,12 @@
 (**********************************************************************)
 
 Require Import Arith.
-Require Import Test.
-Require Import General.
-Require Import Terms.
-Require Import Substitution.
-Require Import Redexes.
+Require Import Lambda.Test.
+Require Import Lambda.General.
+Require Import Lambda.Terms.
+Require Import Lambda.Substitution.
+Require Import Lambda.Redexes.
+Require Import Omega.
 
 (*************************************************)
 (* Parallel beta reduction with residual tracing *)

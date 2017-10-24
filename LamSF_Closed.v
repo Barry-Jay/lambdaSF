@@ -39,6 +39,7 @@ Require Import LamSF_Substitution_term.
 Require Import SF_reduction.
 Require Import LamSF_reduction.
 Require Import LamSF_Normal.
+Require Import Omega.
 
 (* closed terms *) 
 

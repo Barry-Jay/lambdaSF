@@ -41,6 +41,7 @@ Require Import LamSF_Substitution_term.
 Require Import Beta_Reduction.
 Require Import LamSF_Confluence.
 Require Import SF_reduction.
+Require Import Omega.
 
 (* lamSF-reduction *) 
 

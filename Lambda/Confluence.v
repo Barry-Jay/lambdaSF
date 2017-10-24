@@ -34,17 +34,17 @@
 (**********************************************************************)
 
 Require Import Arith.
-Require Import General.
-Require Import Terms.
-Require Import Lambda_tactics.
-Require Import Reduction.
-Require Import Redexes.
-Require Import Test.
-Require Import Marks.
-Require Import Substitution.
-Require Import Residuals.
-Require Import Simulation.
-Require Import Cube. 
+Require Import Lambda.General.
+Require Import Lambda.Terms.
+Require Import Lambda.Lambda_tactics.
+Require Import Lambda.Reduction.
+Require Import Lambda.Redexes.
+Require Import Lambda.Test.
+Require Import Lambda.Marks.
+Require Import Lambda.Substitution.
+Require Import Lambda.Residuals.
+Require Import Lambda.Simulation.
+Require Import Lambda.Cube. 
 
 (* Confluence *)
 

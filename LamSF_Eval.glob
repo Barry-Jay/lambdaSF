@@ -281,6 +281,7 @@ R6315:6318 LamSF_Eval <> fix1 def
 R6451:6454 LamSF_Eval <> fix1 def
 R6508:6520 LamSF_Substitution_term <> lift_rec_null thm
 R6508:6520 LamSF_Substitution_term <> lift_rec_null thm
+R6508:6520 LamSF_Substitution_term <> lift_rec_null thm
 R6531:6553 LamSF_reduction <> preserves_app_lamSF_red thm
 R6591:6602 LamSF_Eval <> little_omega def
 R6591:6602 LamSF_Eval <> little_omega def
@@ -360,6 +361,7 @@ R7213:7220 LamSF_Eval <> fixpoint def
 R7276:7283 LamSF_Eval <> fixpoint def
 R7293:7304 LamSF_Eval <> little_omega def
 R7333:7337 LamSF_Terms <> subst def
+R7391:7403 LamSF_Substitution_term <> lift_rec_null thm
 R7391:7403 LamSF_Substitution_term <> lift_rec_null thm
 R7391:7403 LamSF_Substitution_term <> lift_rec_null thm
 R7459:7467 LamSF_reduction <> lamSF_red def

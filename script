@@ -61,37 +61,37 @@ since it can be reversed by application of another term, abstract.
 *) 
 
 
-coqc General.v; 
-coqc Test.v;    
-coqc LamSF_Terms.v;
-coqc LamSF_Tactics.v 
-coqc LamSF_Substitution_term.v; 
+coqc -Q Lambda Lambda General.v; 
+coqc -Q Lambda Lambda Test.v;    
+coqc -Q Lambda Lambda LamSF_Terms.v;
+coqc -Q Lambda Lambda LamSF_Tactics.v 
+coqc -Q Lambda Lambda LamSF_Substitution_term.v; 
 
-coqc Beta_Reduction.v;
-coqc LamSF_Redexes.v;
-coqc LamSF_Substitution.v;
-coqc LamSF_Residuals.v;
-coqc LamSF_Marks.v;
-coqc LamSF_Simulation.v;
-coqc LamSF_Cube.v;
-coqc LamSF_Confluence.v;
+coqc -Q Lambda Lambda Beta_Reduction.v;
+coqc -Q Lambda Lambda LamSF_Redexes.v;
+coqc -Q Lambda Lambda LamSF_Substitution.v;
+coqc -Q Lambda Lambda LamSF_Residuals.v;
+coqc -Q Lambda Lambda LamSF_Marks.v;
+coqc -Q Lambda Lambda LamSF_Simulation.v;
+coqc -Q Lambda Lambda LamSF_Cube.v;
+coqc -Q Lambda Lambda LamSF_Confluence.v;
 
-coqc SF_reduction.v; 
-coqc LamSF_reduction.v; 
+coqc -Q Lambda Lambda SF_reduction.v; 
+coqc -Q Lambda Lambda LamSF_reduction.v; 
 
-coqc LamSF_Normal.v;  
-coqc LamSF_Closed.v;  
-coqc LamSF_Eval.v;   
-coqc Equal.v; 
-coqc Eta;
+coqc -Q Lambda Lambda LamSF_Normal.v;  
+coqc -Q Lambda Lambda LamSF_Closed.v;  
+coqc -Q Lambda Lambda LamSF_Eval.v;   
+coqc -Q Lambda Lambda Equal.v; 
+coqc -Q Lambda Lambda Eta;
  
-coqc Homomorphism; 
+coqc -Q Lambda Lambda Homomorphism; 
 
-coqc Combinators.v;
-coqc Extensional_to_combinator.v
-coqc Binding.v;
-coqc Unstar
-coqc Intensional_to_combinator.v
+coqc -Q Lambda Lambda Combinators.v;
+coqc -Q Lambda Lambda Extensional_to_combinator.v
+coqc -Q Lambda Lambda Binding.v;
+coqc -Q Lambda Lambda Unstar
+coqc -Q Lambda Lambda Intensional_to_combinator.v
 
 
 

@@ -1,61 +1,61 @@
-DIGEST a4e814324707a98861b1f2f71d1e0f1c
-FMarks
+DIGEST a91633d48eaaec435bcfadffc3790895
+FLambda.Marks
 R2283:2287 Coq.Arith.Arith <> <> lib
-R2305:2308 Test <> <> lib
-R2326:2332 General <> <> lib
-R2350:2354 Terms <> <> lib
-R2372:2378 Redexes <> <> lib
-R2396:2404 Residuals <> <> lib
-def 2458:2461 <> mark
-R2468:2473 Terms <> lambda ind
-R2478:2484 Redexes <> redexes ind
-R2497:2497 Marks <> e var
-R2508:2510 Terms <> Ref constr
-R2517:2519 Redexes <> Var constr
-R2527:2529 Terms <> App constr
-R2538:2539 Redexes <> Ap constr
-R2557:2560 Marks <> mark def
-R2548:2551 Marks <> mark def
-R2541:2545 Coq.Init.Datatypes <> false constr
-R2569:2571 Terms <> Abs constr
-R2578:2580 Redexes <> Fun constr
-R2583:2586 Marks <> mark def
-def 2657:2662 <> unmark
-R2669:2675 Redexes <> redexes ind
-R2680:2685 Terms <> lambda ind
-R2698:2698 Marks <> e var
-R2709:2711 Redexes <> Var constr
-R2718:2720 Terms <> Ref constr
-R2728:2729 Redexes <> Ap constr
-R2740:2742 Terms <> App constr
-R2756:2761 Marks <> unmark def
-R2745:2750 Marks <> unmark def
-R2770:2772 Redexes <> Fun constr
-R2779:2781 Terms <> Abs constr
-R2784:2789 Marks <> unmark def
-prf 2808:2814 <> inverse
-R2829:2834 Terms <> lambda ind
-R2838:2840 Coq.Init.Logic <> :type_scope:x_'='_x not
-R2837:2837 Marks <> M var
-R2841:2846 Marks <> unmark def
-R2849:2852 Marks <> mark def
-R2854:2854 Marks <> M var
-prf 2979:2992 <> comp_unmark_eq
-R3009:3015 Redexes <> redexes ind
-R3038:3040 Coq.Init.Logic <> :type_scope:x_'='_x not
-R3030:3035 Marks <> unmark def
-R3037:3037 Marks <> U var
-R3041:3046 Marks <> unmark def
-R3048:3048 Marks <> V var
-R3018:3021 Redexes <> comp ind
-R3025:3025 Marks <> V var
-R3023:3023 Marks <> U var
-prf 3201:3214 <> residuals_mark
-R3228:3236 Residuals <> residuals ind
-R3257:3260 Marks <> mark def
-R3262:3262 Marks <> M var
-R3248:3251 Marks <> mark def
-R3253:3253 Marks <> M var
-R3239:3242 Marks <> mark def
-R3244:3244 Marks <> M var
-R3316:3329 Marks <> residuals_mark thm
+R2305:2315 Lambda.Test <> <> lib
+R2333:2346 Lambda.General <> <> lib
+R2364:2375 Lambda.Terms <> <> lib
+R2393:2406 Lambda.Redexes <> <> lib
+R2424:2439 Lambda.Residuals <> <> lib
+def 2493:2496 <> mark
+R2503:2508 Lambda.Terms <> lambda ind
+R2513:2519 Lambda.Redexes <> redexes ind
+R2532:2532 Lambda.Marks <> e var
+R2543:2545 Lambda.Terms <> Ref constr
+R2552:2554 Lambda.Redexes <> Var constr
+R2562:2564 Lambda.Terms <> App constr
+R2573:2574 Lambda.Redexes <> Ap constr
+R2592:2595 Lambda.Marks <> mark def
+R2583:2586 Lambda.Marks <> mark def
+R2576:2580 Coq.Init.Datatypes <> false constr
+R2604:2606 Lambda.Terms <> Abs constr
+R2613:2615 Lambda.Redexes <> Fun constr
+R2618:2621 Lambda.Marks <> mark def
+def 2692:2697 <> unmark
+R2704:2710 Lambda.Redexes <> redexes ind
+R2715:2720 Lambda.Terms <> lambda ind
+R2733:2733 Lambda.Marks <> e var
+R2744:2746 Lambda.Redexes <> Var constr
+R2753:2755 Lambda.Terms <> Ref constr
+R2763:2764 Lambda.Redexes <> Ap constr
+R2775:2777 Lambda.Terms <> App constr
+R2791:2796 Lambda.Marks <> unmark def
+R2780:2785 Lambda.Marks <> unmark def
+R2805:2807 Lambda.Redexes <> Fun constr
+R2814:2816 Lambda.Terms <> Abs constr
+R2819:2824 Lambda.Marks <> unmark def
+prf 2843:2849 <> inverse
+R2864:2869 Lambda.Terms <> lambda ind
+R2873:2875 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2872:2872 Lambda.Marks <> M var
+R2876:2881 Lambda.Marks <> unmark def
+R2884:2887 Lambda.Marks <> mark def
+R2889:2889 Lambda.Marks <> M var
+prf 3014:3027 <> comp_unmark_eq
+R3044:3050 Lambda.Redexes <> redexes ind
+R3061:3064 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R3073:3075 Coq.Init.Logic <> :type_scope:x_'='_x not
+R3065:3070 Lambda.Marks <> unmark def
+R3072:3072 Lambda.Marks <> U var
+R3076:3081 Lambda.Marks <> unmark def
+R3083:3083 Lambda.Marks <> V var
+R3053:3056 Lambda.Redexes <> comp ind
+R3060:3060 Lambda.Marks <> V var
+R3058:3058 Lambda.Marks <> U var
+prf 3236:3249 <> residuals_mark
+R3263:3271 Lambda.Residuals <> residuals ind
+R3292:3295 Lambda.Marks <> mark def
+R3297:3297 Lambda.Marks <> M var
+R3283:3286 Lambda.Marks <> mark def
+R3288:3288 Lambda.Marks <> M var
+R3274:3277 Lambda.Marks <> mark def
+R3279:3279 Lambda.Marks <> M var

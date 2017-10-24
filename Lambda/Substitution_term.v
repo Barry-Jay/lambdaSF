@@ -31,10 +31,11 @@
 (**********************************************************************)
 
 Require Import Arith.
-Require Import Terms.
-Require Import Test.
-Require Import General.
-Require Import Lambda_tactics.
+Require Import Lambda.Terms.
+Require Import Lambda.Test.
+Require Import Lambda.General.
+Require Import Lambda.Lambda_tactics.
+Require Import Omega.
 
 
 (* Lifting lemmas *)

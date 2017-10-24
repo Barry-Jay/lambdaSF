@@ -38,6 +38,7 @@ Require Import LamSF_Tactics.
 Require Import LamSF_Substitution_term. 
 Require Import Beta_Reduction.
 Require Import LamSF_Confluence. 
+Require Import Omega.
 
 
 Definition s_op := Op Sop.
